@@ -1,0 +1,6 @@
+.single-case_study .post-content [id] { scroll-margin-top: 140px; }
+.single-case_study .post-index { display: block; }
+.single-case_study .post-sidebar__inner { position: sticky; top: 110px; }
+@media (prefers-reduced-motion: reduce) {
+  .single-case_study { scroll-behavior: auto; }
+}

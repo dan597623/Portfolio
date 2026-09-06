@@ -1,0 +1,917 @@
+[
+  [
+    "src\\components\\alvarez\\CaseBanner.jsx",
+    "How we streamlined enterprise logistics for A&M with TigerGraph 1",
+    "How I streamlined enterprise logistics for A&M with TigerGraph 1"
+  ],
+  [
+    "src\\components\\alvarez\\CaseBanner.jsx",
+    "How we streamlined enterprise logistics for A&M with TigerGraph",
+    "How I streamlined enterprise logistics for A&M with TigerGraph"
+  ],
+  [
+    "src\\components\\alvarez\\CaseBanner.jsx",
+    "Alvarez & Marsal (A&M) is a global enterprise-level consulting company specializing in turnaround management, performance improvement, and advisory services. Founded in 1983, the firm provides expertise in restructuring, operational excellence, and strategic consulting across various industries. A&M is known for working with clients during critical transitions, helping them address complex challenges and achieve sustainable growth.\nThe client turned to Geniusee due to our proven expertise in working with niche technologies like TigerGraph and our ability to deliver custom data-intensive systems under tight technical constraints.",
+    "Alvarez & Marsal (A&M) is a global enterprise-level consulting company specializing in turnaround management, performance improvement, and advisory services. Founded in 1983, the firm provides expertise in restructuring, operational excellence, and strategic consulting across various industries. A&M is known for working with clients during critical transitions, helping them address complex challenges and achieve sustainable growth.\nThe client turned to me due to my proven expertise in working with niche technologies like TigerGraph and my ability to deliver custom data-intensive systems under tight technical constraints."
+  ],
+  [
+    "src\\components\\alvarez\\CaseContent.jsx",
+    "Alvarez & Marsal approached Geniusee to support a logistics optimization initiative for one of their end clients. The client, a large logistics service provider, faced operational inefficiencies in dispatching, load scheduling, and route optimization. These inefficiencies led to ",
+    "Alvarez & Marsal approached Dan to support a logistics optimization initiative for one of their end clients. The client, a large logistics service provider, faced operational inefficiencies in dispatching, load scheduling, and route optimization. These inefficiencies led to "
+  ],
+  [
+    "src\\components\\alvarez\\CaseContent.jsx",
+    "Solutions we implemented",
+    "Solutions I implemented"
+  ],
+  [
+    "src\\components\\alvarez\\CaseContent.jsx",
+    "Our approach was specifically tailored to the client’s existing TigerGraph-based architecture, where we needed to support custom graph queries and complex logistical relationships.",
+    "My approach was specifically tailored to the client’s existing TigerGraph-based architecture, where I needed to support custom graph queries and complex logistical relationships."
+  ],
+  [
+    "src\\components\\alvarez\\CaseContent.jsx",
+    "Following a Kanban methodology, our team delivered an end-to-end system refactoring that included the following services and steps:",
+    "Following a Kanban methodology, I delivered an end-to-end system refactoring that included the following services and steps:"
+  ],
+  [
+    "src\\components\\alvarez\\CaseContent.jsx",
+    "We built and fine-tuned a suite of asynchronous, multithreaded ETL data pipelines based on output quality. This helped us automate logistics data processing and significantly reduce data handling time.",
+    "I built and fine-tuned a suite of asynchronous, multithreaded ETL data pipelines based on output quality. This helped me automate logistics data processing and significantly reduce data handling time."
+  ],
+  [
+    "src\\components\\alvarez\\CaseContent.jsx",
+    "We elaborated upon Ogma.js-based solution to develop a ",
+    "I elaborated upon Ogma.js-based solution to develop a "
+  ],
+  [
+    "src\\components\\alvarez\\CaseContent.jsx",
+    "We developed an advanced solution to optimize load assignments and delivery routes, reducing manual coordination and improving resource efficiency. This included building ",
+    "I developed an advanced solution to optimize load assignments and delivery routes, reducing manual coordination and improving resource efficiency. This included building "
+  ],
+  [
+    "src\\components\\alvarez\\CaseContent.jsx",
+    " that allowed dispatchers to quickly assess available capacity, match loads with drivers, and view routes in real time. We aimed to minimize vehicle usage and driving time without compromising delivery accuracy.",
+    " that allowed dispatchers to quickly assess available capacity, match loads with drivers, and view routes in real time. I aimed to minimize vehicle usage and driving time without compromising delivery accuracy."
+  ],
+  [
+    "src\\components\\alvarez\\CaseContent.jsx",
+    "To ensure a holistic and centralized logistics control, our team elaborated dispatcher dashboards, which facilitated the ",
+    "To ensure a holistic and centralized logistics control, I elaborated dispatcher dashboards, which facilitated the "
+  ],
+  [
+    "src\\components\\alvarez\\CaseContent.jsx",
+    "To enhance system performance and reduce execution time for data-heavy operations, we implemented a combination of ",
+    "To enhance system performance and reduce execution time for data-heavy operations, I implemented a combination of "
+  ],
+  [
+    "src\\components\\alvarez\\CaseContent.jsx",
+    "How we streamlined enterprise logistics for A&M with TigerGraph 2",
+    "How I streamlined enterprise logistics for A&M with TigerGraph 2"
+  ],
+  [
+    "src\\components\\alvarez\\CaseContent.jsx",
+    "How we streamlined enterprise logistics for A&M with TigerGraph 3",
+    "How I streamlined enterprise logistics for A&M with TigerGraph 3"
+  ],
+  [
+    "src\\components\\alvarez\\CaseContent.jsx",
+    "How we streamlined enterprise logistics for A&M with TigerGraph 4",
+    "How I streamlined enterprise logistics for A&M with TigerGraph 4"
+  ],
+  [
+    "src\\components\\alvarez\\CaseContent.jsx",
+    "How we streamlined enterprise logistics for A&M with TigerGraph 5",
+    "How I streamlined enterprise logistics for A&M with TigerGraph 5"
+  ],
+  [
+    "src\\components\\alvarez\\CaseContent.jsx",
+    "How we streamlined enterprise logistics for A&M with TigerGraph 6",
+    "How I streamlined enterprise logistics for A&M with TigerGraph 6"
+  ],
+  [
+    "src\\components\\alvarez\\CaseContent.jsx",
+    "Contact us",
+    "Contact me"
+  ],
+  [
+    "src\\components\\alvarez\\CaseContent.jsx",
+    "Contact us",
+    "Contact me"
+  ],
+  [
+    "src\\components\\alvarez\\CaseContent.jsx",
+    "How we streamlined enterprise logistics for A&M with TigerGraph 7",
+    "How I streamlined enterprise logistics for A&M with TigerGraph 7"
+  ],
+  [
+    "src\\components\\alvarez\\CaseContent.jsx",
+    "How we streamlined enterprise logistics for A&M with TigerGraph 8",
+    "How I streamlined enterprise logistics for A&M with TigerGraph 8"
+  ],
+  [
+    "src\\components\\alvarez\\CaseContent.jsx",
+    "How we streamlined enterprise logistics for A&M with TigerGraph 9",
+    "How I streamlined enterprise logistics for A&M with TigerGraph 9"
+  ],
+  [
+    "src\\components\\alvarez\\CaseContent.jsx",
+    "Geniusee’s tailored solution delivered measurable improvements that directly addressed key operational pain points. By enhancing data processing, logistics coordination, and dispatcher oversight, the system brought lasting business value to the client.",
+    "My tailored solution delivered measurable improvements that directly addressed key operational pain points. By enhancing data processing, logistics coordination, and dispatcher oversight, the system brought lasting business value to the client."
+  ],
+  [
+    "src\\components\\alvarez\\RelatedProjects.jsx",
+    "Permio is an AI-powered permitting platform built for Service First Permits to automate workflows and accelerate approvals across 240+ jurisdictions. Geniusee worked closely with SFP to design, engineer, and validate a system that modernizes the entire permitting lifecycle.",
+    "Permio is an AI-powered permitting platform built for Service First Permits to automate workflows and accelerate approvals across 240+ jurisdictions. I worked closely with SFP to design, engineer, and validate a system that modernizes the entire permitting lifecycle."
+  ],
+  [
+    "src\\components\\alvarez\\RelatedProjects.jsx",
+    "Our client is a revolutionary platform that simplifies finding no-fee apartments for rent in the US. The idea was created by renters who recognized the need for a better way to navigate the complex rental market. With a comprehensive database of verified no-fee apartments, the platform offers a hassle-free experience to both tenants and landlords.\nBy connecting tenants directly with landlords, eliminating broker fees, and providing comprehensive district and building analysis based on municipal data, our client disrupts the traditional rental market, making it easier and more affordable for individuals to find their ideal apartment. Geniusee was honored to deliver a centralized and user-friendly solution to our client.",
+    "My client is a revolutionary platform that simplifies finding no-fee apartments for rent in the US. The idea was created by renters who recognized the need for a better way to navigate the complex rental market. With a comprehensive database of verified no-fee apartments, the platform offers a hassle-free experience to both tenants and landlords.\nBy connecting tenants directly with landlords, eliminating broker fees, and providing comprehensive district and building analysis based on municipal data, my client disrupts the traditional rental market, making it easier and more affordable for individuals to find their ideal apartment. Dan was honored to deliver a centralized and user-friendly solution to my client."
+  ],
+  [
+    "src\\components\\alvarez\\RelatedProjects.jsx",
+    "We partnered with an autonomous logistics and AI robotics company to build a fully automated 3PL fulfillment platform designed for fast, economical delivery. Our team engineered web and mobile applications, integrated the system with leading eCommerce platforms, synchronized high-volume data flows, and connected warehouse robotics for seamless end-to-end order processing. The solution now supports reliable 2-day delivery capabilities and serves well-known global retail brands.",
+    "I partnered with an autonomous logistics and AI robotics company to build a fully automated 3PL fulfillment platform designed for fast, economical delivery. I engineered web and mobile applications, integrated the system with leading eCommerce platforms, synchronized high-volume data flows, and connected warehouse robotics for seamless end-to-end order processing. The solution now supports reliable 2-day delivery capabilities and serves well-known global retail brands."
+  ],
+  [
+    "src\\components\\alvarez\\RelatedProjects.jsx",
+    "Geniusee partnered with a small travel company to develop an AI-powered concierge platform that integrates travel assistance and service management into a single digital environment.\nThe MVP combines an AI-powered chatbot for travelers with an administrative platform for managing its content, users, data, and operations.",
+    "I partnered with a small travel company to develop an AI-powered concierge platform that integrates travel assistance and service management into a single digital environment.\nThe MVP combines an AI-powered chatbot for travelers with an administrative platform for managing its content, users, data, and operations."
+  ],
+  [
+    "src\\components\\alvarez\\RelatedProjects.jsx",
+    "BeEpic is a mobile app that reimagines tipping and appreciation for everyday services, where the giver and receiver may never meet in person. Geniusee helped the startup design and develop an MVP with accurate geolocation logic, asynchronous gratitude matching, and a scalable technical foundation for future enterprise integrations.",
+    "BeEpic is a mobile app that reimagines tipping and appreciation for everyday services, where the giver and receiver may never meet in person. I helped the startup design and develop an MVP with accurate geolocation logic, asynchronous gratitude matching, and a scalable technical foundation for future enterprise integrations."
+  ],
+  [
+    "src\\components\\alvarez\\RelatedProjects.jsx",
+    "Geniusee helped the QuantumEye AI platform that upgrades legacy CCTV with real-time detection, instant incident notifications, and decision-ready analytics.",
+    "I helped the QuantumEye AI platform that upgrades legacy CCTV with real-time detection, instant incident notifications, and decision-ready analytics."
+  ],
+  [
+    "src\\components\\forethought\\CaseBanner.jsx",
+    "Forethought partnered with Geniusee to extend and integrate its AI-powered support platforms (Assist and Discover) into complex enterprise environments. We helped enhance real-time agent assistance, streamline multi-system connectivity, and deliver a unified support experience across channels. The result is a scalable AI agent ecosystem that accelerates resolution times, boosts team productivity, and powers more consistent customer experiences.",
+    "Forethought partnered with me to extend and integrate its AI-powered support platforms (Assist and Discover) into complex enterprise environments. I helped enhance real-time agent assistance, streamline multi-system connectivity, and deliver a unified support experience across channels. The result is a scalable AI agent ecosystem that accelerates resolution times, boosts team productivity, and powers more consistent customer experiences."
+  ],
+  [
+    "src\\components\\forethought\\CaseContent.jsx",
+    " is the most advanced agentic AI system for customer support, trained on your unique data and ready on day one. Powered by Autoflows technology, it autonomously handles complex issues end-to-end by reasoning, planning, following up, integrating APIs, and troubleshooting. With a multi-agent architecture, Forethought’s AI supports your team across channels, solving customer issues, assisting human agents, and uncovering valuable insights.",
+    " is the most advanced agentic AI system for customer support, trained on your unique data and ready on day one. Powered by Autoflows technology, it autonomously handles complex issues end-to-end by reasoning, planning, following up, integrating APIs, and troubleshooting. With a multi-agent architecture, Forethought’s AI supports yI across channels, solving customer issues, assisting human agents, and uncovering valuable insights."
+  ],
+  [
+    "src\\components\\forethought\\CaseContent.jsx",
+    "Cooperation between Geniusee and ",
+    "Cooperation between me and "
+  ],
+  [
+    "src\\components\\forethought\\CaseContent.jsx",
+    "Solutions we implemented",
+    "Solutions I implemented"
+  ],
+  [
+    "src\\components\\forethought\\CaseContent.jsx",
+    "We managed our development process according to quarterly goals and transitioned to the software development lifecycle using Scrum. A wisely chosen approach to project management allowed us to stage each sprint with an appropriate set of developed requirements and features. This ensured even distribution during all development phases.",
+    "I managed my development process according to quarterly goals and transitioned to the software development lifecycle using Scrum. A wisely chosen approach to project management allowed me to stage each sprint with an appropriate set of developed requirements and features. This ensured even distribution during all development phases."
+  ],
+  [
+    "src\\components\\forethought\\CaseContent.jsx",
+    "We chose React because of its open-source framework, which offers a wide range of free tools and libraries. Plus, React is one of the most popular frameworks for frontend development, as it assures smooth and easy system maintenance, making it quick and responsive. Our team also assisted in working with ",
+    "I chose React because of its open-source framework, which offers a wide range of free tools and libraries. Plus, React is one of the most popular frameworks for frontend development, as it assures smooth and easy system maintenance, making it quick and responsive. I also assisted in working with "
+  ],
+  [
+    "src\\components\\forethought\\CaseContent.jsx",
+    "Our team built reliable, scalable integrations with diverse enterprise systems, including CRMs, ticketing tools, and internal knowledge sources. We ensured AI agents operate seamlessly regardless of a client’s tech stack.",
+    "I built reliable, scalable integrations with diverse enterprise systems, including CRMs, ticketing tools, and internal knowledge sources. I ensured AI agents operate seamlessly regardless of a client’s tech stack."
+  ],
+  [
+    "src\\components\\forethought\\CaseContent.jsx",
+    "We established clear quality standards from the outset and integrated them into every stage of the development process. Our engineers maintained code integrity through systematic reviews and unit testing. At the same time, Geniusee",
+    "I established clear quality standards from the outset and integrated them into every stage of the development process. I maintained code integrity through systematic reviews and unit testing. At the same time, Dan"
+  ],
+  [
+    "src\\components\\forethought\\CaseContent.jsx",
+    "We continued to work closely with Forethought after the release, ensuring the platform operates reliably under real-world conditions. Our team handled issue resolution, removed legacy dependencies, and delivered ongoing updates. This includes implementing new features and enhancements driven by user behavior, product analytics, and evolving market demands.",
+    "I continued to work closely with Forethought after the release, ensuring the platform operates reliably under real-world conditions. I handled issue resolution, removed legacy dependencies, and delivered ongoing updates. This includes implementing new features and enhancements driven by user behavior, product analytics, and evolving market demands."
+  ],
+  [
+    "src\\components\\forethought\\CaseContent.jsx",
+    "Contact us",
+    "Contact me"
+  ],
+  [
+    "src\\components\\forethought\\CaseContent.jsx",
+    "Contact us",
+    "Contact me"
+  ],
+  [
+    "src\\components\\forethought\\CaseContent.jsx",
+    "The Geniusee team delivered a Chrome extension for an AI-powered tool to enable support representatives to use one platform connected to many different services they use daily.",
+    "I delivered a Chrome extension for an AI-powered tool to enable support representatives to use one platform connected to many different services they use daily."
+  ],
+  [
+    "src\\components\\forethought\\CaseContent.jsx",
+    "Admins may add tasks to Jira and assign them to service agents (certain customer support representatives) using templates. This allows us to work faster and avoid manual mistakes with self-service.",
+    "Admins may add tasks to Jira and assign them to service agents (certain customer support representatives) using templates. This allows me to work faster and avoid manual mistakes with self-service."
+  ],
+  [
+    "src\\components\\forethought\\CaseContent.jsx",
+    "We strived to make support processes faster and easier, so we tailored data extraction according to the problem described in a ticket. It also depends on the chosen board. Integrations with certain products empower process automation. This is based on the main AI-powered functions that the Forethought team delivered, of course.",
+    "I strived to make support processes faster and easier, so I tailored data extraction according to the problem described in a ticket. It also depends on the chosen board. Integrations with certain products empower process automation. This is based on the main AI-powered functions that the Forethought team delivered, of course."
+  ],
+  [
+    "src\\components\\forethought\\CaseContent.jsx",
+    "We developed a tool that allows support representatives to create work notes using a wide range of Forethought possibilities. End users (service agents) may create public and private notes and templates. Suggestions empowered by multiple variables are also presented.",
+    "I developed a tool that allows support representatives to create work notes using a wide range of Forethought possibilities. End users (service agents) may create public and private notes and templates. Suggestions empowered by multiple variables are also presented."
+  ],
+  [
+    "src\\components\\forethought\\CaseContent.jsx",
+    "The Geniusee team tailored the analytical system in the admin panel. We delivered an interactive dashboard with the most necessary features and service reports. Admins (PMs, delivery managers, or any other responsible person in an organization) may check ticket quantity by agents and clients, amount of jobs done, and many more. This allows the use of all possibilities of AI for customer satisfaction and company profitability.",
+    "I tailored the analytical system in the admin panel. I delivered an interactive dashboard with the most necessary features and service reports. Admins (PMs, delivery managers, or any other responsible person in an organization) may check ticket quantity by agents and clients, amount of jobs done, and many more. This allows the use of all possibilities of AI for customer satisfaction and company profitability."
+  ],
+  [
+    "src\\components\\forethought\\CaseContent.jsx",
+    "We enabled an AI-driven autocomplete feature that speeds up agent responses by generating contextual suggestions as they type. The system analyzes message content in real time, helping support teams respond faster and with higher accuracy.",
+    "I enabled an AI-driven autocomplete feature that speeds up agent responses by generating contextual suggestions as they type. The system analyzes message content in real time, helping support teams respond faster and with higher accuracy."
+  ],
+  [
+    "src\\components\\forethought\\RelatedProjects.jsx",
+    "We partnered with Compose AI to enhance their AI-powered writing platform through cloud migration, UX improvements, seamless integrations, and scalable feature development, upporting their growth from YC-backed startup to a widely adopted productivity tool.",
+    "I partnered with Compose AI to enhance their AI-powered writing platform through cloud migration, UX improvements, seamless integrations, and scalable feature development, upporting their growth from YC-backed startup to a widely adopted productivity tool."
+  ],
+  [
+    "src\\components\\forethought\\RelatedProjects.jsx",
+    "Geniusee partnered with a small travel company to develop an AI-powered concierge platform that integrates travel assistance and service management into a single digital environment.\nThe MVP combines an AI-powered chatbot for travelers with an administrative platform for managing its content, users, data, and operations.",
+    "I partnered with a small travel company to develop an AI-powered concierge platform that integrates travel assistance and service management into a single digital environment.\nThe MVP combines an AI-powered chatbot for travelers with an administrative platform for managing its content, users, data, and operations."
+  ],
+  [
+    "src\\components\\forethought\\RelatedProjects.jsx",
+    "Geniusee helped the QuantumEye AI platform that upgrades legacy CCTV with real-time detection, instant incident notifications, and decision-ready analytics.",
+    "I helped the QuantumEye AI platform that upgrades legacy CCTV with real-time detection, instant incident notifications, and decision-ready analytics."
+  ],
+  [
+    "src\\components\\forethought\\RelatedProjects.jsx",
+    "We partnered with an autonomous logistics and AI robotics company to build a fully automated 3PL fulfillment platform designed for fast, economical delivery. Our team engineered web and mobile applications, integrated the system with leading eCommerce platforms, synchronized high-volume data flows, and connected warehouse robotics for seamless end-to-end order processing. The solution now supports reliable 2-day delivery capabilities and serves well-known global retail brands.",
+    "I partnered with an autonomous logistics and AI robotics company to build a fully automated 3PL fulfillment platform designed for fast, economical delivery. I engineered web and mobile applications, integrated the system with leading eCommerce platforms, synchronized high-volume data flows, and connected warehouse robotics for seamless end-to-end order processing. The solution now supports reliable 2-day delivery capabilities and serves well-known global retail brands."
+  ],
+  [
+    "src\\components\\forethought\\RelatedProjects.jsx",
+    "Our client is a technology company specializing in providing services for industries with highly regulated communications. Their AI-based expertise allows to make those processes more simple. Geniusee was entrusted with migrating client’s infrastructure from Azure to Amazon, aiming to consolidate their crucial infrastructure in one place. The project involved migrating their database and leveraging Amazon services to optimize the system's scalability, security, and performance.",
+    "My client is a technology company specializing in providing services for industries with highly regulated communications. Their AI-based expertise allows to make those processes more simple. Dan was entrusted with migrating client’s infrastructure from Azure to Amazon, aiming to consolidate their crucial infrastructure in one place. The project involved migrating their database and leveraging Amazon services to optimize the system's scalability, security, and performance."
+  ],
+  [
+    "src\\components\\forethought\\RelatedProjects.jsx",
+    "How we streamlined enterprise logistics for A&M with TigerGraph",
+    "How I streamlined enterprise logistics for A&M with TigerGraph"
+  ],
+  [
+    "src\\components\\forethought\\RelatedProjects.jsx",
+    "Alvarez & Marsal (A&M) is a global enterprise-level consulting company specializing in turnaround management, performance improvement, and advisory services. Founded in 1983, the firm provides expertise in restructuring, operational excellence, and strategic consulting across various industries. A&M is known for working with clients during critical transitions, helping them address complex challenges and achieve sustainable growth.\nThe client turned to Geniusee due to our proven expertise in working with niche technologies like TigerGraph and our ability to deliver custom data-intensive systems under tight technical constraints.",
+    "Alvarez & Marsal (A&M) is a global enterprise-level consulting company specializing in turnaround management, performance improvement, and advisory services. Founded in 1983, the firm provides expertise in restructuring, operational excellence, and strategic consulting across various industries. A&M is known for working with clients during critical transitions, helping them address complex challenges and achieve sustainable growth.\nThe client turned to me due to my proven expertise in working with niche technologies like TigerGraph and my ability to deliver custom data-intensive systems under tight technical constraints."
+  ],
+  [
+    "src\\components\\imagine\\CaseBanner.jsx",
+    "How Geniusee helped Forsyth Barnes speed up hiring by up to 90% with Imagine AI 1",
+    "How I helped Forsyth Barnes speed up hiring by up to 90% with Imagine AI 1"
+  ],
+  [
+    "src\\components\\imagine\\CaseBanner.jsx",
+    "How Geniusee helped Forsyth Barnes speed up hiring by up to 90% with Imagine AI",
+    "How I helped Forsyth Barnes speed up hiring by up to 90% with Imagine AI"
+  ],
+  [
+    "src\\components\\imagine\\CaseBanner.jsx",
+    "Geniusee developed Imagine AI, a scalable recruitment platform for Forsyth Barnes. The system centralizes workflows, embeds AI for candidate matching and CV tailoring, and integrates compliance and reporting tools. This solution facilitates recruiters' work and ensures full visibility across the hiring cycle.",
+    "I helped develop Imagine AI, a scalable recruitment platform for Forsyth Barnes. The system centralizes workflows, embeds AI for candidate matching and CV tailoring, and integrates compliance and reporting tools. This solution facilitates recruiters' work and ensures full visibility across the hiring cycle."
+  ],
+  [
+    "src\\components\\imagine\\CaseContent.jsx",
+    "How Geniusee helped Forsyth Barnes speed up hiring by up to 90% with Imagine AI 2",
+    "How I helped Forsyth Barnes speed up hiring by up to 90% with Imagine AI 2"
+  ],
+  [
+    "src\\components\\imagine\\CaseContent.jsx",
+    "Solutions we implemented",
+    "Solutions I implemented"
+  ],
+  [
+    "src\\components\\imagine\\CaseContent.jsx",
+    "To address the inefficiencies and limitations of Forsyth Barnes’ legacy system, Geniusee delivered a scalable, AI-enhanced web platform designed for multi-company use. Our process was collaborative and iterative, with many AI features shaped by ongoing client feedback and business input.",
+    "To address the inefficiencies and limitations of Forsyth Barnes’ legacy system, I helped deliver a scalable, AI-enhanced web platform designed for multi-company use. My process was collaborative and iterative, with many AI features shaped by ongoing client feedback and business input."
+  ],
+  [
+    "src\\components\\imagine\\CaseContent.jsx",
+    "Through Microsoft Teams integration, we enabled call transcription, auto-filled checklists, and trigger-based actions like automated emails.",
+    "Through Microsoft Teams integration, I enabled call transcription, auto-filled checklists, and trigger-based actions like automated emails."
+  ],
+  [
+    "src\\components\\imagine\\CaseContent.jsx",
+    "We developed AI features iteratively with the client’s input. Our team collaborated closely with Forsyth Barnes to build and refine tools like job ad generation, CV tailoring, and candidate matching, each shaped by practical recruiter needs.",
+    "I developed AI features iteratively with the client’s input. I collaborated closely with Forsyth Barnes to build and refine tools like job ad generation, CV tailoring, and candidate matching, each shaped by practical recruiter needs."
+  ],
+  [
+    "src\\components\\imagine\\CaseContent.jsx",
+    "We enriched the platform with external data sources. Integrations with ZoomInfo, LinkedIn, and Microsoft AD automatically refreshed company and candidate profiles with verified data.",
+    "I enriched the platform with external data sources. Integrations with ZoomInfo, LinkedIn, and Microsoft AD automatically refreshed company and candidate profiles with verified data."
+  ],
+  [
+    "src\\components\\imagine\\CaseContent.jsx",
+    "How Geniusee helped Forsyth Barnes speed up hiring by up to 90% with Imagine AI 3",
+    "How I helped Forsyth Barnes speed up hiring by up to 90% with Imagine AI 3"
+  ],
+  [
+    "src\\components\\imagine\\CaseContent.jsx",
+    "Contact us",
+    "Contact me"
+  ],
+  [
+    "src\\components\\imagine\\CaseContent.jsx",
+    "Contact us",
+    "Contact me"
+  ],
+  [
+    "src\\components\\imagine\\CaseContent.jsx",
+    "How Geniusee helped Forsyth Barnes speed up hiring by up to 90% with Imagine AI 4",
+    "How I helped Forsyth Barnes speed up hiring by up to 90% with Imagine AI 4"
+  ],
+  [
+    "src\\components\\imagine\\CaseContent.jsx",
+    "How Geniusee helped Forsyth Barnes speed up hiring by up to 90% with Imagine AI 5",
+    "How I helped Forsyth Barnes speed up hiring by up to 90% with Imagine AI 5"
+  ],
+  [
+    "src\\components\\imagine\\CaseContent.jsx",
+    "How Geniusee helped Forsyth Barnes speed up hiring by up to 90% with Imagine AI 6",
+    "How I helped Forsyth Barnes speed up hiring by up to 90% with Imagine AI 6"
+  ],
+  [
+    "src\\components\\imagine\\CaseContent.jsx",
+    "How Geniusee helped Forsyth Barnes speed up hiring by up to 90% with Imagine AI 7",
+    "How I helped Forsyth Barnes speed up hiring by up to 90% with Imagine AI 7"
+  ],
+  [
+    "src\\components\\imagine\\CaseContent.jsx",
+    "How Geniusee helped Forsyth Barnes speed up hiring by up to 90% with Imagine AI 8",
+    "How I helped Forsyth Barnes speed up hiring by up to 90% with Imagine AI 8"
+  ],
+  [
+    "src\\components\\imagine\\RelatedProjects.jsx",
+    "Geniusee partnered with a small travel company to develop an AI-powered concierge platform that integrates travel assistance and service management into a single digital environment.\nThe MVP combines an AI-powered chatbot for travelers with an administrative platform for managing its content, users, data, and operations.",
+    "I partnered with a small travel company to develop an AI-powered concierge platform that integrates travel assistance and service management into a single digital environment.\nThe MVP combines an AI-powered chatbot for travelers with an administrative platform for managing its content, users, data, and operations."
+  ],
+  [
+    "src\\components\\imagine\\RelatedProjects.jsx",
+    "BeEpic is a mobile app that reimagines tipping and appreciation for everyday services, where the giver and receiver may never meet in person. Geniusee helped the startup design and develop an MVP with accurate geolocation logic, asynchronous gratitude matching, and a scalable technical foundation for future enterprise integrations.",
+    "BeEpic is a mobile app that reimagines tipping and appreciation for everyday services, where the giver and receiver may never meet in person. I helped the startup design and develop an MVP with accurate geolocation logic, asynchronous gratitude matching, and a scalable technical foundation for future enterprise integrations."
+  ],
+  [
+    "src\\components\\imagine\\RelatedProjects.jsx",
+    "Geniusee helped the QuantumEye AI platform that upgrades legacy CCTV with real-time detection, instant incident notifications, and decision-ready analytics.",
+    "I helped the QuantumEye AI platform that upgrades legacy CCTV with real-time detection, instant incident notifications, and decision-ready analytics."
+  ],
+  [
+    "src\\components\\imagine\\RelatedProjects.jsx",
+    "Permio is an AI-powered permitting platform built for Service First Permits to automate workflows and accelerate approvals across 240+ jurisdictions. Geniusee worked closely with SFP to design, engineer, and validate a system that modernizes the entire permitting lifecycle.",
+    "Permio is an AI-powered permitting platform built for Service First Permits to automate workflows and accelerate approvals across 240+ jurisdictions. I worked closely with SFP to design, engineer, and validate a system that modernizes the entire permitting lifecycle."
+  ],
+  [
+    "src\\components\\keep\\CaseBanner.jsx",
+    "Keep is a next-generation retention platform built to modernize compensation strategies. Instead of relying on equity during volatile market cycles, companies use Keep to offer vesting-based cash bonuses structured as employer-funded loans. Employees receive their full bonus upfront, while the vesting schedule governs forgiveness over time, creating transparency, commitment, and a predictable retention mechanism. Our team helped transform this concept into a secure, compliant FinTech application that streamlines bonus management for employers and delivers a simple, intuitive experience for employees.",
+    "Keep is a next-generation retention platform built to modernize compensation strategies. Instead of relying on equity during volatile market cycles, companies use Keep to offer vesting-based cash bonuses structured as employer-funded loans. Employees receive their full bonus upfront, while the vesting schedule governs forgiveness over time, creating transparency, commitment, and a predictable retention mechanism. I helped transform this concept into a secure, compliant FinTech application that streamlines bonus management for employers and delivers a simple, intuitive experience for employees."
+  ],
+  [
+    "src\\components\\keep\\CaseContent.jsx",
+    "Solutions we implemented",
+    "Solutions I implemented"
+  ],
+  [
+    "src\\components\\keep\\CaseContent.jsx",
+    " is an inherent part of any development process. You can deliver a successful solution without precise requirements, collection, and analysis. It’s also vital to define the need and offer possible solutions that bring value to all stakeholders in context. Our specialists conducted market research and competitive analysis and presented the WBS (work breakdown structure). We tailored this project based on schemes that refer primarily to tech documentation.",
+    " is an inherent part of any development process. You can deliver a successful solution without precise requirements, collection, and analysis. It’s also vital to define the need and offer possible solutions that bring value to all stakeholders in context. I conducted market research and competitive analysis and presented the WBS (work breakdown structure). I tailored this project based on schemes that refer primarily to tech documentation."
+  ],
+  [
+    "src\\components\\keep\\CaseContent.jsx",
+    "As cloud-based software development provides stability and security, we tailor serverless platforms hosted by ",
+    "As cloud-based software development provides stability and security, I tailor serverless platforms hosted by "
+  ],
+  [
+    "src\\components\\keep\\CaseContent.jsx",
+    ". The architecture was built on modern cloud providers and their prebuilt services to speed up the development process and analyze external services. Additionally, we set up a range of services, including AWS, analytics, and monitoring solutions. This allowed us to realize how customers use our app and the results of our work. Logging all in-app actions simplifies debugging.",
+    ". The architecture was built on modern cloud providers and their prebuilt services to speed up the development process and analyze external services. Additionally, I set up a range of services, including AWS, analytics, and monitoring solutions. This allowed me to realize how customers use my app and the results of my work. Logging all in-app actions simplifies debugging."
+  ],
+  [
+    "src\\components\\keep\\CaseContent.jsx",
+    "We built this service from scratch, tailoring all functionality to the front and backend parts. Geniusee pays attention to the security of development, delivering solutions that comply with ",
+    "I built this service from scratch, tailoring all functionality to the front and backend parts. I pay attention to the security of development, delivering solutions that comply with "
+  ],
+  [
+    "src\\components\\keep\\CaseContent.jsx",
+    ". We also deliver custom integrations with third-party services in a secure and protected environment. Here, we connected Plaid and Synctera for transactions and bank account uptie, DocuSign for contract signup, and Segment and Mixpanel for analytics.",
+    ". I also deliver custom integrations with third-party services in a secure and protected environment. Here, I connected Plaid and Synctera for transactions and bank account uptie, DocuSign for contract signup, and Segment and Mixpanel for analytics."
+  ],
+  [
+    "src\\components\\keep\\CaseContent.jsx",
+    "We conduct penetration tests, as it’s a vital requirement from regulators for ",
+    "I conduct penetration tests, as it’s a vital requirement from regulators for "
+  ],
+  [
+    "src\\components\\keep\\CaseContent.jsx",
+    ". We use test cases, functional analysis, and regression testing as part of manual quality assurance. We automate the testing process by adding autotests for the endpoint, end-to-end tests, and unit tests to the functionality. Front and backend solutions will also be tested automatically soon.",
+    ". I use test cases, functional analysis, and regression testing as part of manual quality assurance. I automate the testing process by adding autotests for the endpoint, end-to-end tests, and unit tests to the functionality. Front and backend solutions will also be tested automatically soon."
+  ],
+  [
+    "src\\components\\keep\\CaseContent.jsx",
+    "Contact us",
+    "Contact me"
+  ],
+  [
+    "src\\components\\keep\\CaseContent.jsx",
+    "Contact us",
+    "Contact me"
+  ],
+  [
+    "src\\components\\keep\\CaseContent.jsx",
+    "We use 3d party integrations and APIs to manage the whole system without an admin UI",
+    "I use 3d party integrations and APIs to manage the whole system without an admin UI"
+  ],
+  [
+    "src\\components\\keep\\CaseContent.jsx",
+    "As loans require severe confirmations, we implemented the KYC (know your customer) model",
+    "As loans require severe confirmations, I implemented the KYC (know your customer) model"
+  ],
+  [
+    "src\\components\\keep\\RelatedProjects.jsx",
+    "KLAUS, a project pushing the limits of music generation for everyone, wanted to take their platform to the next level. Their goal? To develop a fully functional music stem player and sound engine, allowing users to create interactive musical experiences. Recognizing the need for expertise to match their vision, KLAUS chose us as their development partner.",
+    "KLAUS, a project pushing the limits of music generation for everyone, wanted to take their platform to the next level. Their goal? To develop a fully functional music stem player and sound engine, allowing users to create interactive musical experiences. Recognizing the need for expertise to match their vision, KLAUS chose me as their development partner."
+  ],
+  [
+    "src\\components\\keep\\RelatedProjects.jsx",
+    "Geniusee partnered with a US-based FinTech company to build a secure, automated white-label lending platform that streamlines merchant cash advance processes.",
+    "I partnered with a US-based FinTech company to build a secure, automated white-label lending platform that streamlines merchant cash advance processes."
+  ],
+  [
+    "src\\components\\keep\\RelatedProjects.jsx",
+    "Zytara is a digital banking app built specifically for Gen Z, combining financial education with a gamified, customizable user experience. Our team developed a secure, blockchain-enabled platform that lets parents manage and monitor their children’s spending and saving, while giving young users a more engaging way to interact with money. We introduced game-inspired card skins, personalized modes, and a built-in shop featuring branded merchandise from e-sports, gaming, and music partners. One of the most unique aspects of the project was enabling users to manage digital assets and complete full NFT lifecycles directly within the app.",
+    "Zytara is a digital banking app built specifically for Gen Z, combining financial education with a gamified, customizable user experience. I developed a secure, blockchain-enabled platform that lets parents manage and monitor their children’s spending and saving, while giving young users a more engaging way to interact with money. I introduced game-inspired card skins, personalized modes, and a built-in shop featuring branded merchandise from e-sports, gaming, and music partners. One of the most unique aspects of the project was enabling users to manage digital assets and complete full NFT lifecycles directly within the app."
+  ],
+  [
+    "src\\components\\keep\\RelatedProjects.jsx",
+    "DigitalBits partnered with Geniusee to build a robust blockchain ecosystem powered by the XDB cryptocurrency. Over several years of collaboration, we engineered a scalable blockchain infrastructure, multi-platform crypto wallets, developer tools, and real-time analytics applications.",
+    "DigitalBits partnered with me to build a robust blockchain ecosystem powered by the XDB cryptocurrency. Over several years of collaboration, I engineered a scalable blockchain infrastructure, multi-platform crypto wallets, developer tools, and real-time analytics applications."
+  ],
+  [
+    "src\\components\\keep\\RelatedProjects.jsx",
+    "Geniusee partnered with a small travel company to develop an AI-powered concierge platform that integrates travel assistance and service management into a single digital environment.\nThe MVP combines an AI-powered chatbot for travelers with an administrative platform for managing its content, users, data, and operations.",
+    "I partnered with a small travel company to develop an AI-powered concierge platform that integrates travel assistance and service management into a single digital environment.\nThe MVP combines an AI-powered chatbot for travelers with an administrative platform for managing its content, users, data, and operations."
+  ],
+  [
+    "src\\components\\levels-health\\CaseBanner.jsx",
+    "The global rise in chronic diseases like diabetes has fueled the demand for personalized health management tools. Levels Health, an A16z-backed startup,  identified a gap in the market for a user-centric app that leverages CGM data to empower individuals to optimize their metabolic health. Levels partnered with Geniusee to create a mobile app that would be their core user engagement platform.",
+    "The global rise in chronic diseases like diabetes has fueled the demand for personalized health management tools. Levels Health, an A16z-backed startup,  identified a gap in the market for a user-centric app that leverages CGM data to empower individuals to optimize their metabolic health. Levels partnered with me to create a mobile app that would be their core user engagement platform."
+  ],
+  [
+    "src\\components\\levels-health\\CaseContent.jsx",
+    "Healthcare is shifting toward personalized and preventive care. Levels Health saw the opportunity to empower people with a mobile app that uses continuous glucose monitoring (CGM) data. Their goal was to help users take control of their metabolic health by providing real-time insights. They chose Geniusee for our expertise in building user-focused, data-driven mobile solutions to bring this vision to life.",
+    "Healthcare is shifting toward personalized and preventive care. Levels Health saw the opportunity to empower people with a mobile app that uses continuous glucose monitoring (CGM) data. Their goal was to help users take control of their metabolic health by providing real-time insights. They chose Dan for my expertise in building user-focused, data-driven mobile solutions to bring this vision to life."
+  ],
+  [
+    "src\\components\\levels-health\\CaseContent.jsx",
+    "Solutions we implemented",
+    "Solutions I implemented"
+  ],
+  [
+    "src\\components\\levels-health\\CaseContent.jsx",
+    "The process began with detailed UI/UX design by Geniusee, encompassing research, wireframes, and prototypes that aligned with Mysterium’s brand. Next, Android development in Kotlin involved close teamwork between frontend and backend, focusing on regular communication and testing for ongoing improvement. Quality assurance ensured a robust mobile app, with thorough testing for functionality, usability, performance, and security, as well as effective communication for issue resolution.",
+    "The process began with detailed UI/UX design with my contribution, encompassing research, wireframes, and prototypes that aligned with Mysterium’s brand. Next, Android development in Kotlin involved close teamwork between frontend and backend, focusing on regular communication and testing for ongoing improvement. Quality assurance ensured a robust mobile app, with thorough testing for functionality, usability, performance, and security, as well as effective communication for issue resolution."
+  ],
+  [
+    "src\\components\\levels-health\\CaseContent.jsx",
+    "We employed an agile project management methodology to keep Levels Health updated and involved at every stage. Our project managers organized biweekly sprint planning meetings and daily standup meetings to keep everyone accountable, address any blockers, and keep work moving forward.",
+    "I employed an agile project management methodology to keep Levels Health updated and involved at every stage. I organized biweekly sprint planning meetings and daily standup meetings to keep everyone accountable, address any blockers, and keep work moving forward."
+  ],
+  [
+    "src\\components\\levels-health\\CaseContent.jsx",
+    "Our designers focused on creating a simple yet engaging interface. We used a minimalistic color palette with bright accent colors to highlight important information. The layout is clean and consistent across all screens.",
+    "I focused on creating a simple yet engaging interface. I used a minimalistic color palette with bright accent colors to highlight important information. The layout is clean and consistent across all screens."
+  ],
+  [
+    "src\\components\\levels-health\\CaseContent.jsx",
+    "Using React Native allowed us to develop the app once and release it for both iOS and Android. To handle the volume of data, we implemented GraphQL, a query language for APIs, to efficiently request and process exactly the data needed for each view. The end result is an intuitive app providing users an easy way to gain visibility into what’s really going on in their body and make meaningful changes to feel their best.",
+    "Using React Native allowed me to develop the app once and release it for both iOS and Android. To handle the volume of data, I implemented GraphQL, a query language for APIs, to efficiently request and process exactly the data needed for each view. The end result is an intuitive app providing users an easy way to gain visibility into what’s really going on in their body and make meaningful changes to feel their best."
+  ],
+  [
+    "src\\components\\levels-health\\CaseContent.jsx",
+    "Contact us",
+    "Contact me"
+  ],
+  [
+    "src\\components\\levels-health\\CaseContent.jsx",
+    "Contact us",
+    "Contact me"
+  ],
+  [
+    "src\\components\\levels-health\\RelatedProjects.jsx",
+    "Together with EinkaufsCHECK, we built a scalable healthy habit tracker app that uses big data and scientific nutrition research to provide personalized recommendations, meal planning, and smart shopping lists across web and mobile.",
+    "Together with EinkaufsCHECK, I built a scalable healthy habit tracker app that uses big data and scientific nutrition research to provide personalized recommendations, meal planning, and smart shopping lists across web and mobile."
+  ],
+  [
+    "src\\components\\levels-health\\RelatedProjects.jsx",
+    "RealmFive partnered with Geniusee to build a native iOS and Android app capable of aggregating data from multiple IoT devices, ensuring fast processing, reliable cloud delivery, and an intuitive user experience. Together, we delivered a robust, high-performing platform that helped RealmFive scale rapidly, secure new funding, and win industry awards.",
+    "RealmFive partnered with me to build a native iOS and Android app capable of aggregating data from multiple IoT devices, ensuring fast processing, reliable cloud delivery, and an intuitive user experience. Together, I delivered a robust, high-performing platform that helped RealmFive scale rapidly, secure new funding, and win industry awards."
+  ],
+  [
+    "src\\components\\levels-health\\RelatedProjects.jsx",
+    "Pause partnered with Geniusee to design and develop a cross-platform app with real-time video, push notifications, community features, and personalized daily routines.",
+    "Pause partnered with me to design and develop a cross-platform app with real-time video, push notifications, community features, and personalized daily routines."
+  ],
+  [
+    "src\\components\\levels-health\\RelatedProjects.jsx",
+    "Geniusee supported Festicket's in-house team in web and mobile development. When Lyte successfully acquired Festicket, we brought our collaboration to the next level. We’ve been working together for more than 2 years and have conquered a considerable market share. Selling, buying, returning, booking, and even at-festival purchases — all that and much more is a result of our cooperation with the Festicket and Lyte teams.",
+    "Dan supported Festicket's in-house team in web and mobile development. When Lyte successfully acquired Festicket, I brought my collaboration to the next level. I’ve been working together for more than 2 years and have conquered a considerable market share. Selling, buying, returning, booking, and even at-festival purchases — all that and much more is a result of my cooperation with the Festicket and Lyte teams."
+  ],
+  [
+    "src\\components\\levels-health\\RelatedProjects.jsx",
+    "DigitalBits partnered with Geniusee to build a robust blockchain ecosystem powered by the XDB cryptocurrency. Over several years of collaboration, we engineered a scalable blockchain infrastructure, multi-platform crypto wallets, developer tools, and real-time analytics applications.",
+    "DigitalBits partnered with me to build a robust blockchain ecosystem powered by the XDB cryptocurrency. Over several years of collaboration, I engineered a scalable blockchain infrastructure, multi-platform crypto wallets, developer tools, and real-time analytics applications."
+  ],
+  [
+    "src\\components\\levels-health\\RelatedProjects.jsx",
+    "BeEpic is a mobile app that reimagines tipping and appreciation for everyday services, where the giver and receiver may never meet in person. Geniusee helped the startup design and develop an MVP with accurate geolocation logic, asynchronous gratitude matching, and a scalable technical foundation for future enterprise integrations.",
+    "BeEpic is a mobile app that reimagines tipping and appreciation for everyday services, where the giver and receiver may never meet in person. I helped the startup design and develop an MVP with accurate geolocation logic, asynchronous gratitude matching, and a scalable technical foundation for future enterprise integrations."
+  ],
+  [
+    "src\\components\\mytutor\\CaseContent.jsx",
+    "Having already collaborated with MyTutor on two educational platforms from MVP to full-scale release, Geniusee was brought in to extend the partnership across four workstreams: two dedicated to US solutions and two focused on the UK platform and legacy modernization. The joint goal was to build a scalable, secure, and integration-ready ecosystem that could support school partnerships at scale, accelerate releases, and continuously improve the learning experience based on real user feedback.",
+    "Having already collaborated with MyTutor on two educational platforms from MVP to full-scale release, I was brought in to extend the partnership across four workstreams: two dedicated to US solutions and two focused on the UK platform and legacy modernization. The joint goal was to build a scalable, secure, and integration-ready ecosystem that could support school partnerships at scale, accelerate releases, and continuously improve the learning experience based on real user feedback."
+  ],
+  [
+    "src\\components\\mytutor\\CaseContent.jsx",
+    "Solutions we implemented",
+    "Solutions I implemented"
+  ],
+  [
+    "src\\components\\mytutor\\CaseContent.jsx",
+    "MyTutor and Geniusee organized work into 4 product streams (two for the US and two for the UK), using Scrum for fast, demo-ready releases and Kanban for continuous legacy cleanup. This mix allowed the teams to ship new functionality quickly while steadily improving the existing platform.",
+    "MyTutor and I organized work into 4 product streams (two for the US and two for the UK), using Scrum for fast, demo-ready releases and Kanban for continuous legacy cleanup. This mix allowed the teams to ship new functionality quickly while steadily improving the existing platform."
+  ],
+  [
+    "src\\components\\mytutor\\CaseContent.jsx",
+    "Contact us",
+    "Contact me"
+  ],
+  [
+    "src\\components\\mytutor\\CaseContent.jsx",
+    "Contact us",
+    "Contact me"
+  ],
+  [
+    "src\\components\\mytutor\\CaseContent.jsx",
+    "We realized interactive dashboards and built-in connection with Google Analytics to enable users see outcomes and synchronize them with other data sources.",
+    "I realized interactive dashboards and built-in connection with Google Analytics to enable users see outcomes and synchronize them with other data sources."
+  ],
+  [
+    "src\\components\\mytutor\\RelatedProjects.jsx",
+    "Student is a global EdTech marketplace that helps international students find and book education and relocation services. Geniusee built the platform from the ground up, delivering both web and mobile versions with a scalable, serverless architecture. The solution supports service discovery, request management, secure payments, user verification, and content moderation. Our work focused on creating a seamless, intuitive experience for students, agents, and service providers across multiple markets.",
+    "Student is a global EdTech marketplace that helps international students find and book education and relocation services. Dan built the platform from the ground up, delivering both web and mobile versions with a scalable, serverless architecture. The solution supports service discovery, request management, secure payments, user verification, and content moderation. My work focused on creating a seamless, intuitive experience for students, agents, and service providers across multiple markets."
+  ],
+  [
+    "src\\components\\mytutor\\RelatedProjects.jsx",
+    "Geniusee partnered with a US-based FinTech company to build a secure, automated white-label lending platform that streamlines merchant cash advance processes.",
+    "I partnered with a US-based FinTech company to build a secure, automated white-label lending platform that streamlines merchant cash advance processes."
+  ],
+  [
+    "src\\components\\mytutor\\RelatedProjects.jsx",
+    "Pause partnered with Geniusee to design and develop a cross-platform app with real-time video, push notifications, community features, and personalized daily routines.",
+    "Pause partnered with me to design and develop a cross-platform app with real-time video, push notifications, community features, and personalized daily routines."
+  ],
+  [
+    "src\\components\\mytutor\\RelatedProjects.jsx",
+    "DigitalBits partnered with Geniusee to build a robust blockchain ecosystem powered by the XDB cryptocurrency. Over several years of collaboration, we engineered a scalable blockchain infrastructure, multi-platform crypto wallets, developer tools, and real-time analytics applications.",
+    "DigitalBits partnered with me to build a robust blockchain ecosystem powered by the XDB cryptocurrency. Over several years of collaboration, I engineered a scalable blockchain infrastructure, multi-platform crypto wallets, developer tools, and real-time analytics applications."
+  ],
+  [
+    "src\\components\\mytutor\\RelatedProjects.jsx",
+    "Together with EinkaufsCHECK, we built a scalable healthy habit tracker app that uses big data and scientific nutrition research to provide personalized recommendations, meal planning, and smart shopping lists across web and mobile.",
+    "Together with EinkaufsCHECK, I built a scalable healthy habit tracker app that uses big data and scientific nutrition research to provide personalized recommendations, meal planning, and smart shopping lists across web and mobile."
+  ],
+  [
+    "src\\components\\permio\\CaseBanner.jsx",
+    "Permio is an AI-powered permitting platform built for Service First Permits to automate workflows and accelerate approvals across 240+ jurisdictions. Geniusee worked closely with SFP to design, engineer, and validate a system that modernizes the entire permitting lifecycle.",
+    "Permio is an AI-powered permitting platform built for Service First Permits to automate workflows and accelerate approvals across 240+ jurisdictions. I worked closely with SFP to design, engineer, and validate a system that modernizes the entire permitting lifecycle."
+  ],
+  [
+    "src\\components\\permio\\CaseContent.jsx",
+    "Geniusee partnered with Service First Permits to build Permio — an AI-powered platform that automates permit workflows, digitizes documentation, and accelerates approvals across 240+ jurisdictions and 380+ agencies.",
+    "I partnered with Service First Permits to build Permio — an AI-powered platform that automates permit workflows, digitizes documentation, and accelerates approvals across 240+ jurisdictions and 380+ agencies."
+  ],
+  [
+    "src\\components\\permio\\CaseContent.jsx",
+    "SFP approached Geniusee with a goal to digitize and automate core parts of their permitting process. Their clients needed a modern, intuitive platform to access up-to-date information on region-specific requirements, permit statuses, documentation workflows, and timelines.",
+    "SFP approached Dan with a goal to digitize and automate core parts of their permitting process. Their clients needed a modern, intuitive platform to access up-to-date information on region-specific requirements, permit statuses, documentation workflows, and timelines."
+  ],
+  [
+    "src\\components\\permio\\CaseContent.jsx",
+    "Solutions we implemented",
+    "Solutions I implemented"
+  ],
+  [
+    "src\\components\\permio\\CaseContent.jsx",
+    "Geniusee collaborated closely with Service First Permits through daily meetings, both internally and with the client team. These included focused sessions with business analysts, developers, and QA leads to clarify requirements, resolve blockers, and adapt to shifting priorities. This iterative communication helped us stay aligned and responsive throughout development. Below is a breakdown of the key solutions delivered:",
+    "I collaborated closely with Service First Permits through daily meetings, both internally and with the client team. These included focused sessions with business analysts, developers, and QA leads to clarify requirements, resolve blockers, and adapt to shifting priorities. This iterative communication helped me stay aligned and responsive throughout development. Below is a breakdown of the key solutions delivered:"
+  ],
+  [
+    "src\\components\\permio\\CaseContent.jsx",
+    "We connected Google Maps for accurate location-based project management and integrated Google Analytics to capture user behavior insights. The platform also included automated billing and usage tracking to simplify operational oversight.",
+    "I connected Google Maps for accurate location-based project management and integrated Google Analytics to capture user behavior insights. The platform also included automated billing and usage tracking to simplify operational oversight."
+  ],
+  [
+    "src\\components\\permio\\CaseContent.jsx",
+    "To support better decision-making, we implemented analytics dashboards with visual charts using MUI X-Charts. These included usage tracking, project analytics, and tailored reporting components to provide clients with real-time visibility into key metrics.",
+    "To support better decision-making, I implemented analytics dashboards with visual charts using MUI X-Charts. These included usage tracking, project analytics, and tailored reporting components to provide clients with real-time visibility into key metrics."
+  ],
+  [
+    "src\\components\\permio\\CaseContent.jsx",
+    "Using TanStack Query, we built a system for efficient data synchronization. This included automated activity tracking, audit trails, and a notification system to keep all project stakeholders informed of real-time changes.",
+    "Using TanStack Query, I built a system for efficient data synchronization. This included automated activity tracking, audit trails, and a notification system to keep all project stakeholders informed of real-time changes."
+  ],
+  [
+    "src\\components\\permio\\CaseContent.jsx",
+    "To address project management complexity, we implemented interactive Gantt chart components, enabled task dependencies, and integrated calendars for streamlined timeline tracking.",
+    "To address project management complexity, I implemented interactive Gantt chart components, enabled task dependencies, and integrated calendars for streamlined timeline tracking."
+  ],
+  [
+    "src\\components\\permio\\CaseContent.jsx",
+    "We built a robust AI-enhanced chat system using LangChain. The system included real-time messaging, thread management, and @mentions for smoother team coordination. This allowed users to manage conversations around projects and document contextually.",
+    "I built a robust AI-enhanced chat system using LangChain. The system included real-time messaging, thread management, and @mentions for smoother team coordination. This allowed users to manage conversations around projects and document contextually."
+  ],
+  [
+    "src\\components\\permio\\CaseContent.jsx",
+    "Leveraging Firebase and PDFSlick, we developed a centralized file storage system with drag-and-drop uploads, PDF previews, and signature status detection. This allowed users to process and review key permit documents directly within the platform.",
+    "Leveraging Firebase and PDFSlick, I developed a centralized file storage system with drag-and-drop uploads, PDF previews, and signature status detection. This allowed users to process and review key permit documents directly within the platform."
+  ],
+  [
+    "src\\components\\permio\\CaseContent.jsx",
+    "We implemented key onboarding and access features, including user registration, Google sign-in, email verification, profile setup, and invitation-based user addition. These streamlined team access and ensured secure participation in workflows.",
+    "I implemented key onboarding and access features, including user registration, Google sign-in, email verification, profile setup, and invitation-based user addition. These streamlined team access and ensured secure participation in workflows."
+  ],
+  [
+    "src\\components\\permio\\CaseContent.jsx",
+    "Contact us",
+    "Contact me"
+  ],
+  [
+    "src\\components\\permio\\CaseContent.jsx",
+    "Contact us",
+    "Contact me"
+  ],
+  [
+    "src\\components\\permio\\CaseContent.jsx",
+    "Obstacles Geniusee encountered",
+    "Obstacles Dan encountered"
+  ],
+  [
+    "src\\components\\permio\\CaseContent.jsx",
+    "How Geniusee resolved these issues",
+    "How Dan resolved these issues"
+  ],
+  [
+    "src\\components\\permio\\RelatedProjects.jsx",
+    "Student is a global EdTech marketplace that helps international students find and book education and relocation services. Geniusee built the platform from the ground up, delivering both web and mobile versions with a scalable, serverless architecture. The solution supports service discovery, request management, secure payments, user verification, and content moderation. Our work focused on creating a seamless, intuitive experience for students, agents, and service providers across multiple markets.",
+    "Student is a global EdTech marketplace that helps international students find and book education and relocation services. Dan built the platform from the ground up, delivering both web and mobile versions with a scalable, serverless architecture. The solution supports service discovery, request management, secure payments, user verification, and content moderation. My work focused on creating a seamless, intuitive experience for students, agents, and service providers across multiple markets."
+  ],
+  [
+    "src\\components\\permio\\RelatedProjects.jsx",
+    "Our client is a revolutionary platform that simplifies finding no-fee apartments for rent in the US. The idea was created by renters who recognized the need for a better way to navigate the complex rental market. With a comprehensive database of verified no-fee apartments, the platform offers a hassle-free experience to both tenants and landlords.\nBy connecting tenants directly with landlords, eliminating broker fees, and providing comprehensive district and building analysis based on municipal data, our client disrupts the traditional rental market, making it easier and more affordable for individuals to find their ideal apartment. Geniusee was honored to deliver a centralized and user-friendly solution to our client.",
+    "My client is a revolutionary platform that simplifies finding no-fee apartments for rent in the US. The idea was created by renters who recognized the need for a better way to navigate the complex rental market. With a comprehensive database of verified no-fee apartments, the platform offers a hassle-free experience to both tenants and landlords.\nBy connecting tenants directly with landlords, eliminating broker fees, and providing comprehensive district and building analysis based on municipal data, my client disrupts the traditional rental market, making it easier and more affordable for individuals to find their ideal apartment. Dan was honored to deliver a centralized and user-friendly solution to my client."
+  ],
+  [
+    "src\\components\\permio\\RelatedProjects.jsx",
+    "Geniusee partnered with a small travel company to develop an AI-powered concierge platform that integrates travel assistance and service management into a single digital environment.\nThe MVP combines an AI-powered chatbot for travelers with an administrative platform for managing its content, users, data, and operations.",
+    "I partnered with a small travel company to develop an AI-powered concierge platform that integrates travel assistance and service management into a single digital environment.\nThe MVP combines an AI-powered chatbot for travelers with an administrative platform for managing its content, users, data, and operations."
+  ],
+  [
+    "src\\components\\permio\\RelatedProjects.jsx",
+    "How we streamlined enterprise logistics for A&M with TigerGraph",
+    "How I streamlined enterprise logistics for A&M with TigerGraph"
+  ],
+  [
+    "src\\components\\permio\\RelatedProjects.jsx",
+    "Alvarez & Marsal (A&M) is a global enterprise-level consulting company specializing in turnaround management, performance improvement, and advisory services. Founded in 1983, the firm provides expertise in restructuring, operational excellence, and strategic consulting across various industries. A&M is known for working with clients during critical transitions, helping them address complex challenges and achieve sustainable growth.\nThe client turned to Geniusee due to our proven expertise in working with niche technologies like TigerGraph and our ability to deliver custom data-intensive systems under tight technical constraints.",
+    "Alvarez & Marsal (A&M) is a global enterprise-level consulting company specializing in turnaround management, performance improvement, and advisory services. Founded in 1983, the firm provides expertise in restructuring, operational excellence, and strategic consulting across various industries. A&M is known for working with clients during critical transitions, helping them address complex challenges and achieve sustainable growth.\nThe client turned to me due to my proven expertise in working with niche technologies like TigerGraph and my ability to deliver custom data-intensive systems under tight technical constraints."
+  ],
+  [
+    "src\\components\\permio\\RelatedProjects.jsx",
+    "BeEpic is a mobile app that reimagines tipping and appreciation for everyday services, where the giver and receiver may never meet in person. Geniusee helped the startup design and develop an MVP with accurate geolocation logic, asynchronous gratitude matching, and a scalable technical foundation for future enterprise integrations.",
+    "BeEpic is a mobile app that reimagines tipping and appreciation for everyday services, where the giver and receiver may never meet in person. I helped the startup design and develop an MVP with accurate geolocation logic, asynchronous gratitude matching, and a scalable technical foundation for future enterprise integrations."
+  ],
+  [
+    "src\\components\\permio\\RelatedProjects.jsx",
+    "Geniusee helped the QuantumEye AI platform that upgrades legacy CCTV with real-time detection, instant incident notifications, and decision-ready analytics.",
+    "I helped the QuantumEye AI platform that upgrades legacy CCTV with real-time detection, instant incident notifications, and decision-ready analytics."
+  ],
+  [
+    "src\\components\\silibrain\\CaseBanner.jsx",
+    "Silibrain collaborated with Geniusee to enhance and scale its healthcare platform into a reliable system for clinics and hospitals. The upgraded solution brings together EHR, patient communication, inventory, and financial workflows, giving medical teams a secure and fully digital environment that supports more efficient and confident care delivery.",
+    "Silibrain collaborated with me to enhance and scale its healthcare platform into a reliable system for clinics and hospitals. The upgraded solution brings together EHR, patient communication, inventory, and financial workflows, giving medical teams a secure and fully digital environment that supports more efficient and confident care delivery."
+  ],
+  [
+    "src\\components\\silibrain\\CaseContent.jsx",
+    "Solutions we implemented",
+    "Solutions I implemented"
+  ],
+  [
+    "src\\components\\silibrain\\CaseContent.jsx",
+    "Contact us",
+    "Contact me"
+  ],
+  [
+    "src\\components\\silibrain\\CaseContent.jsx",
+    "Contact us",
+    "Contact me"
+  ],
+  [
+    "src\\components\\silibrain\\RelatedProjects.jsx",
+    "BeEpic is a mobile app that reimagines tipping and appreciation for everyday services, where the giver and receiver may never meet in person. Geniusee helped the startup design and develop an MVP with accurate geolocation logic, asynchronous gratitude matching, and a scalable technical foundation for future enterprise integrations.",
+    "BeEpic is a mobile app that reimagines tipping and appreciation for everyday services, where the giver and receiver may never meet in person. I helped the startup design and develop an MVP with accurate geolocation logic, asynchronous gratitude matching, and a scalable technical foundation for future enterprise integrations."
+  ],
+  [
+    "src\\components\\silibrain\\RelatedProjects.jsx",
+    "How we scaled a multidimensional platform for human alignment",
+    "How I scaled a multidimensional platform for human alignment"
+  ],
+  [
+    "src\\components\\silibrain\\RelatedProjects.jsx",
+    "ALIGNMETRIX focuses on measuring internal human alignment through structured, data-driven assessments. To bring this methodology into a scalable product, the company engaged Geniusee to build a mobile and admin platform with analytics and subscription management.",
+    "ALIGNMETRIX focuses on measuring internal human alignment through structured, data-driven assessments. To bring this methodology into a scalable product, the company engaged Dan to build a mobile and admin platform with analytics and subscription management."
+  ],
+  [
+    "src\\components\\silibrain\\RelatedProjects.jsx",
+    "Keep is a next-generation retention platform built to modernize compensation strategies. Instead of relying on equity during volatile market cycles, companies use Keep to offer vesting-based cash bonuses structured as employer-funded loans. Employees receive their full bonus upfront, while the vesting schedule governs forgiveness over time, creating transparency, commitment, and a predictable retention mechanism. Our team helped transform this concept into a secure, compliant FinTech application that streamlines bonus management for employers and delivers a simple, intuitive experience for employees.",
+    "Keep is a next-generation retention platform built to modernize compensation strategies. Instead of relying on equity during volatile market cycles, companies use Keep to offer vesting-based cash bonuses structured as employer-funded loans. Employees receive their full bonus upfront, while the vesting schedule governs forgiveness over time, creating transparency, commitment, and a predictable retention mechanism. I helped transform this concept into a secure, compliant FinTech application that streamlines bonus management for employers and delivers a simple, intuitive experience for employees."
+  ],
+  [
+    "src\\components\\silibrain\\RelatedProjects.jsx",
+    "TeamBridge users managed scheduling, time tracking, onboarding, and workforce coordination in one platform. But when it came to compliance documents, employee onboarding forms, and contract signing, they still had to leave the system and rely on third-party document tools.\nGeniusee engineered a native Document Studio and integrated the E-Sign engine inside the TeamBridge ecosystem. Now, users can create, edit, distribute, automate, and sign documents directly in the platform while keeping workforce and compliance data connected.",
+    "TeamBridge users managed scheduling, time tracking, onboarding, and workforce coordination in one platform. But when it came to compliance documents, employee onboarding forms, and contract signing, they still had to leave the system and rely on third-party document tools.\nDan engineered a native Document Studio and integrated the E-Sign engine inside the TeamBridge ecosystem. Now, users can create, edit, distribute, automate, and sign documents directly in the platform while keeping workforce and compliance data connected."
+  ],
+  [
+    "src\\components\\silibrain\\RelatedProjects.jsx",
+    "Student is a global EdTech marketplace that helps international students find and book education and relocation services. Geniusee built the platform from the ground up, delivering both web and mobile versions with a scalable, serverless architecture. The solution supports service discovery, request management, secure payments, user verification, and content moderation. Our work focused on creating a seamless, intuitive experience for students, agents, and service providers across multiple markets.",
+    "Student is a global EdTech marketplace that helps international students find and book education and relocation services. Dan built the platform from the ground up, delivering both web and mobile versions with a scalable, serverless architecture. The solution supports service discovery, request management, secure payments, user verification, and content moderation. My work focused on creating a seamless, intuitive experience for students, agents, and service providers across multiple markets."
+  ],
+  [
+    "src\\components\\spicerhaart\\CaseBanner.jsx",
+    "Spicerhaart Group Ltd is one of the UK's largest independent estate agency networks, operating 7 well‑known brands across residential sales, lettings, and financial services. \nGeniusee delivered a mobile video solution that simplifies property marketing: agents can capture, enhance, and publish fully branded property tours in minutes, with seamless CRM integration and automated brand consistency.",
+    "Spicerhaart Group Ltd is one of the UK's largest independent estate agency networks, operating 7 well‑known brands across residential sales, lettings, and financial services. \nI helped deliver a mobile video solution that simplifies property marketing: agents can capture, enhance, and publish fully branded property tours in minutes, with seamless CRM integration and automated brand consistency."
+  ],
+  [
+    "src\\components\\spicerhaart\\CaseContent.jsx",
+    "The client addressed Geniusee to create a custom mobile solution that would eliminate manual steps, enforce brand consistency, and integrate directly with their internal systems.",
+    "The client addressed Dan to create a custom mobile solution that would eliminate manual steps, enforce brand consistency, and integrate directly with their internal systems."
+  ],
+  [
+    "src\\components\\spicerhaart\\CaseContent.jsx",
+    "Solutions we implemented",
+    "Solutions I implemented"
+  ],
+  [
+    "src\\components\\spicerhaart\\CaseContent.jsx",
+    "We developed cross-platform iOS and Android applications using React Native to enable agents to record, edit, and upload property videos directly from their mobile devices, with CRM and brand logic built in. The solution included:",
+    "I developed cross-platform iOS and Android applications using React Native to enable agents to record, edit, and upload property videos directly from their mobile devices, with CRM and brand logic built in. The solution included:"
+  ],
+  [
+    "src\\components\\spicerhaart\\CaseContent.jsx",
+    "To ensure secure and unified access to verified Spicerhaart employees, we integrated with Spicerhaart’s Azure AD tenancy.",
+    "To ensure secure and unified access to verified Spicerhaart employees, I integrated with Spicerhaart’s Azure AD tenancy."
+  ],
+  [
+    "src\\components\\spicerhaart\\CaseContent.jsx",
+    "Next, we tackled CRM connectivity. Team members can directly enter a property reference code from their CRM to fetch associated metadata (address, description, price, branding, agent name). Custom APIs communicate with the Rex CRM and push video links post-upload.",
+    "Next, I tackled CRM connectivity. Team members can directly enter a property reference code from their CRM to fetch associated metadata (address, description, price, branding, agent name). Custom APIs communicate with the Rex CRM and push video links post-upload."
+  ],
+  [
+    "src\\components\\spicerhaart\\CaseContent.jsx",
+    "The final step was to streamline video editing in the app. Our team ensured that built-in clip trimming features were included to eliminate the need for external post-production tools. Once finalized, the videos are uploaded directly to Vimeo, and the video link is posted back to the CRM.",
+    "The final step was to streamline video editing in the app. I ensured that built-in clip trimming features were included to eliminate the need for external post-production tools. Once finalized, the videos are uploaded directly to Vimeo, and the video link is posted back to the CRM."
+  ],
+  [
+    "src\\components\\spicerhaart\\CaseContent.jsx",
+    "Contact us",
+    "Contact me"
+  ],
+  [
+    "src\\components\\spicerhaart\\CaseContent.jsx",
+    "Contact us",
+    "Contact me"
+  ],
+  [
+    "src\\components\\spicerhaart\\RelatedProjects.jsx",
+    "Geniusee partnered with Mysterium to build a secure, high-performance decentralized Android VPN app featuring Smart Connect, seamless PayPal payments, and a modern privacy-focused UX.",
+    "I partnered with Mysterium to build a secure, high-performance decentralized Android VPN app featuring Smart Connect, seamless PayPal payments, and a modern privacy-focused UX."
+  ],
+  [
+    "src\\components\\spicerhaart\\RelatedProjects.jsx",
+    "RealmFive partnered with Geniusee to build a native iOS and Android app capable of aggregating data from multiple IoT devices, ensuring fast processing, reliable cloud delivery, and an intuitive user experience. Together, we delivered a robust, high-performing platform that helped RealmFive scale rapidly, secure new funding, and win industry awards.",
+    "RealmFive partnered with me to build a native iOS and Android app capable of aggregating data from multiple IoT devices, ensuring fast processing, reliable cloud delivery, and an intuitive user experience. Together, I delivered a robust, high-performing platform that helped RealmFive scale rapidly, secure new funding, and win industry awards."
+  ],
+  [
+    "src\\components\\spicerhaart\\RelatedProjects.jsx",
+    "DigitalBits partnered with Geniusee to build a robust blockchain ecosystem powered by the XDB cryptocurrency. Over several years of collaboration, we engineered a scalable blockchain infrastructure, multi-platform crypto wallets, developer tools, and real-time analytics applications.",
+    "DigitalBits partnered with me to build a robust blockchain ecosystem powered by the XDB cryptocurrency. Over several years of collaboration, I engineered a scalable blockchain infrastructure, multi-platform crypto wallets, developer tools, and real-time analytics applications."
+  ],
+  [
+    "src\\components\\spicerhaart\\RelatedProjects.jsx",
+    "Together with EinkaufsCHECK, we built a scalable healthy habit tracker app that uses big data and scientific nutrition research to provide personalized recommendations, meal planning, and smart shopping lists across web and mobile.",
+    "Together with EinkaufsCHECK, I built a scalable healthy habit tracker app that uses big data and scientific nutrition research to provide personalized recommendations, meal planning, and smart shopping lists across web and mobile."
+  ],
+  [
+    "src\\components\\spicerhaart\\RelatedProjects.jsx",
+    "Tamam partnered with Geniusee to build a full-cycle digital product – from discovery to UX/UI, mobile app development, admin dashboard, and microservice infrastructure. Together, we created a robust MVP that evolved into a scalable platform with over 50,000 downloads and a 4.5-star rating.",
+    "Tamam partnered with me to build a full-cycle digital product – from discovery to UX/UI, mobile app development, admin dashboard, and microservice infrastructure. Together, I created a robust MVP that evolved into a scalable platform with over 50,000 downloads and a 4.5-star rating."
+  ],
+  [
+    "src\\components\\spicerhaart\\RelatedProjects.jsx",
+    "BeEpic is a mobile app that reimagines tipping and appreciation for everyday services, where the giver and receiver may never meet in person. Geniusee helped the startup design and develop an MVP with accurate geolocation logic, asynchronous gratitude matching, and a scalable technical foundation for future enterprise integrations.",
+    "BeEpic is a mobile app that reimagines tipping and appreciation for everyday services, where the giver and receiver may never meet in person. I helped the startup design and develop an MVP with accurate geolocation logic, asynchronous gratitude matching, and a scalable technical foundation for future enterprise integrations."
+  ],
+  [
+    "src\\components\\xunlocked\\CaseContent.jsx",
+    "Both Geniusee and the xUnlocked team value transparency and collaboration, so we have proactively worked together for more than three years already. While we’re conducting the development phase led by their CTO, the xUnlocked team handles sales and content development.",
+    "The xUnlocked team and I value transparency and collaboration, so I have proactively worked together for more than three years already. While I’m conducting the development phase led by their CTO, the xUnlocked team handles sales and content development."
+  ],
+  [
+    "src\\components\\xunlocked\\CaseContent.jsx",
+    "When the work started, xUnlocked already had a video learning platform on WordPress, yet they had a goal to expand. WordPress suits small and medium-sized businesses well, but may not be the best fit for global enterprises with institutional clients. In this case, a much better solution for xUnlocked was Laravel, which also allowed us to create a completely custom design.",
+    "When the work started, xUnlocked already had a video learning platform on WordPress, yet they had a goal to expand. WordPress suits small and medium-sized businesses well, but may not be the best fit for global enterprises with institutional clients. In this case, a much better solution for xUnlocked was Laravel, which also allowed me to create a completely custom design."
+  ],
+  [
+    "src\\components\\xunlocked\\CaseContent.jsx",
+    "Solutions we implemented",
+    "Solutions I implemented"
+  ],
+  [
+    "src\\components\\xunlocked\\CaseContent.jsx",
+    "We rebuilt the legacy WordPress solution into a scalable Laravel + React ecosystem. This included:",
+    "I rebuilt the legacy WordPress solution into a scalable Laravel + React ecosystem. This included:"
+  ],
+  [
+    "src\\components\\xunlocked\\CaseContent.jsx",
+    "We transformed xUnlocked from a single-domain finance platform into a unified, multi-domain learning suite.",
+    "I transformed xUnlocked from a single-domain finance platform into a unified, multi-domain learning suite."
+  ],
+  [
+    "src\\components\\xunlocked\\CaseContent.jsx",
+    "To support institutional clients, we built a flexible, secure environment with deep enterprise personalization.",
+    "To support institutional clients, I built a flexible, secure environment with deep enterprise personalization."
+  ],
+  [
+    "src\\components\\xunlocked\\CaseContent.jsx",
+    "We implemented a comprehensive analytics and assignment system enabling managers and learners to operate with precision.",
+    "I implemented a comprehensive analytics and assignment system enabling managers and learners to operate with precision."
+  ],
+  [
+    "src\\components\\xunlocked\\CaseContent.jsx",
+    "Contact us",
+    "Contact me"
+  ],
+  [
+    "src\\components\\xunlocked\\CaseContent.jsx",
+    "Contact us",
+    "Contact me"
+  ],
+  [
+    "src\\components\\xunlocked\\CaseContent.jsx",
+    "Geniusee continues to collaborate with xUnlocked, scaling the on-demand learning platforms, updating the design, and video player.",
+    "I continued to collaborate with xUnlocked, scaling the on-demand learning platforms, updating the design, and video player."
+  ],
+  [
+    "src\\components\\xunlocked\\RelatedProjects.jsx",
+    "Geniusee partnered with a US-based FinTech company to build a secure, automated white-label lending platform that streamlines merchant cash advance processes.",
+    "I partnered with a US-based FinTech company to build a secure, automated white-label lending platform that streamlines merchant cash advance processes."
+  ],
+  [
+    "src\\components\\xunlocked\\RelatedProjects.jsx",
+    "DigitalBits partnered with Geniusee to build a robust blockchain ecosystem powered by the XDB cryptocurrency. Over several years of collaboration, we engineered a scalable blockchain infrastructure, multi-platform crypto wallets, developer tools, and real-time analytics applications.",
+    "DigitalBits partnered with me to build a robust blockchain ecosystem powered by the XDB cryptocurrency. Over several years of collaboration, I engineered a scalable blockchain infrastructure, multi-platform crypto wallets, developer tools, and real-time analytics applications."
+  ],
+  [
+    "src\\components\\xunlocked\\RelatedProjects.jsx",
+    "Student is a global EdTech marketplace that helps international students find and book education and relocation services. Geniusee built the platform from the ground up, delivering both web and mobile versions with a scalable, serverless architecture. The solution supports service discovery, request management, secure payments, user verification, and content moderation. Our work focused on creating a seamless, intuitive experience for students, agents, and service providers across multiple markets.",
+    "Student is a global EdTech marketplace that helps international students find and book education and relocation services. Dan built the platform from the ground up, delivering both web and mobile versions with a scalable, serverless architecture. The solution supports service discovery, request management, secure payments, user verification, and content moderation. My work focused on creating a seamless, intuitive experience for students, agents, and service providers across multiple markets."
+  ],
+  [
+    "src\\components\\xunlocked\\RelatedProjects.jsx",
+    "KLAUS, a project pushing the limits of music generation for everyone, wanted to take their platform to the next level. Their goal? To develop a fully functional music stem player and sound engine, allowing users to create interactive musical experiences. Recognizing the need for expertise to match their vision, KLAUS chose us as their development partner.",
+    "KLAUS, a project pushing the limits of music generation for everyone, wanted to take their platform to the next level. Their goal? To develop a fully functional music stem player and sound engine, allowing users to create interactive musical experiences. Recognizing the need for expertise to match their vision, KLAUS chose me as their development partner."
+  ],
+  [
+    "src\\components\\xunlocked\\RelatedProjects.jsx",
+    "Zytara is a digital banking app built specifically for Gen Z, combining financial education with a gamified, customizable user experience. Our team developed a secure, blockchain-enabled platform that lets parents manage and monitor their children’s spending and saving, while giving young users a more engaging way to interact with money. We introduced game-inspired card skins, personalized modes, and a built-in shop featuring branded merchandise from e-sports, gaming, and music partners. One of the most unique aspects of the project was enabling users to manage digital assets and complete full NFT lifecycles directly within the app.",
+    "Zytara is a digital banking app built specifically for Gen Z, combining financial education with a gamified, customizable user experience. I developed a secure, blockchain-enabled platform that lets parents manage and monitor their children’s spending and saving, while giving young users a more engaging way to interact with money. I introduced game-inspired card skins, personalized modes, and a built-in shop featuring branded merchandise from e-sports, gaming, and music partners. One of the most unique aspects of the project was enabling users to manage digital assets and complete full NFT lifecycles directly within the app."
+  ],
+  [
+    "src\\components\\xunlocked\\RelatedProjects.jsx",
+    "Learn how Geniusee built a real-time crypto trading dashboard integrating 40+ exchanges with low-latency streaming and secure AWS infrastructure.",
+    "Learn how Dan built a real-time crypto trading dashboard integrating 40+ exchanges with low-latency streaming and secure AWS infrastructure."
+  ]
+]
