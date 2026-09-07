@@ -1,8 +1,47 @@
+"use client";
+import { useRef, useState } from 'react';
 export default function Contact() {
+  const [status, setStatus] = useState(null);
+  const [sending, setSending] = useState(false);
+  const inFlight = useRef(false);
+  async function submitInquiry(event) {
+    event.preventDefault();
+    const form = event.currentTarget;
+    if (inFlight.current || !form.reportValidity()) return;
+    inFlight.current = true;
+    setSending(true);
+    setStatus(null);
+    try {
+      const payload = Object.fromEntries(new FormData(form));
+      payload._url = window.location.href;
+      const response = await fetch('https://formsubmit.co/ajax/dan597623@gmail.com', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+        body: JSON.stringify(payload),
+        signal: AbortSignal.timeout(20000),
+      });
+      const result = await response.json();
+      const accepted = result.success === true || result.success === 'true';
+      const needsActivation = /activat|confirm.*email|verify.*email/i.test(result.message || '');
+      if (!response.ok || !accepted || needsActivation) {
+        setStatus({ error: true, text: needsActivation
+          ? 'Message delivery is not available yet. Please try again later.'
+          : 'Your message could not be submitted. Please try again. Your details are still here.' });
+        return;
+      }
+      setStatus({ error: false, text: 'Thank you. Your inquiry has been submitted.' });
+      form.reset();
+    } catch {
+      setStatus({ error: true, text: 'I could not confirm your submission. Please check your connection and try again. Your details are still here.' });
+    } finally {
+      inFlight.current = false;
+      setSending(false);
+    }
+  }
   return (
 <section id={"contact"} className={"contact-form-block"} style={{"--md": "128px", "--mm": "80px"}}><div className={"container"}><div className={"flex"}><div id={""} className={"form-block"} style={{}}><div className={"form-block__head"}><h2 className={"form-block__title"}>{"Let's talk!"}</h2>
 </div>
-<form action="https://formsubmit.co/dan597623@gmail.com" method="POST" data-contact-delivery="true" className="form form--inverted">
+<form action="https://formsubmit.co/dan597623@gmail.com" method="POST" onSubmit={submitInquiry} aria-busy={sending} data-contact-delivery="true" className="form form--inverted">
 <input type="hidden" name="_subject" value="New portfolio inquiry for Dan" />
 <input type="hidden" name="_template" value="table" />
 <input type="text" name="_honey" tabIndex={-1} autoComplete="off" aria-hidden="true" style={{display: 'none'}} />
@@ -103,13 +142,12 @@ export default function Contact() {
 
 </label>
 </div>
-<div className={"form-messages"}></div>
+<div className="form-messages" role="status" aria-live="polite">{status && <p className={status.error ? "contact-status is-error" : "contact-status"}>{status.text}</p>}</div>
 <div className={"form-actions"}><div className={"form-row"}>
-<button type={"submit"} className={"btn btn-blue"}>{"Send"}</button>
+<button type="submit" className="btn btn-blue" disabled={sending}>{sending ? "Sending..." : "Send"}</button>
 </div>
 </div>
 </form>
-<p className="contact-direct-email">Or email me at <a href="mailto:dan597623@gmail.com">dan597623@gmail.com</a></p>
 </div>
 
 
