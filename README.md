@@ -28,10 +28,12 @@ Routes include `/`, `/projects`, `/contact`, and ten `/projects/<slug>` case stu
 
 Next.js generates `.next` during builds; `public` contains source assets, not a complete deployable application. Deploy using a Next.js-compatible host or run `npm start` after building. Vite and the old `dist` deployment workflow have been removed.
 
-The contact form currently validates input and displays a preview response; it does not send email. LinkedIn and GitHub buttons await profile URLs.
+The contact form posts to FormSubmit for delivery to dan597623@gmail.com. Submit the form once from the deployed site and confirm the activation email in that inbox. CAPTCHA remains enabled. Delivery has not been verified until activation. LinkedIn and GitHub buttons await profile URLs.
 
 ## Verification
 
 Run `npm run build`. With the production server on port 3100, run `node scripts/check-next-portfolio.mjs` to inspect all routes, local asset requests, and the homepage testimonial using Playwright and installed Microsoft Edge.
 
 Internal page links use `next/link`, section navigation uses `next/navigation` without URL fragments, and hero images use `next/image`. Only interactive components use client boundaries.
+
+The hero resume button is disabled until Dan supplies a resume PDF. Replace it with a download link to the supplied file in `public`.

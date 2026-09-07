@@ -360,3 +360,7 @@ a[data-inactive-agency-link] { cursor: default; pointer-events: none; }
 
 /* Vertically center project-page testimonial quotes and attribution together. */
 .card-block--quote > .card-content { display: flex; flex-direction: column; justify-content: center; }
+
+.personal-resume:disabled { opacity: .6; cursor: not-allowed; }
+.contact-direct-email { margin: 24px 0 0; font-size: 16px; line-height: 1.5; overflow-wrap: anywhere; }
+.contact-direct-email a { text-decoration: underline; }

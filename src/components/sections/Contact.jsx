@@ -2,7 +2,10 @@ export default function Contact() {
   return (
 <section id={"contact"} className={"contact-form-block"} style={{"--md": "128px", "--mm": "80px"}}><div className={"container"}><div className={"flex"}><div id={""} className={"form-block"} style={{}}><div className={"form-block__head"}><h2 className={"form-block__title"}>{"Let's talk!"}</h2>
 </div>
-<form action={"https://geniusee.com/#"} className={"form ajax-form form--inverted"}>
+<form action="https://formsubmit.co/dan597623@gmail.com" method="POST" data-contact-delivery="true" className="form form--inverted">
+<input type="hidden" name="_subject" value="New portfolio inquiry for Dan" />
+<input type="hidden" name="_template" value="table" />
+<input type="text" name="_honey" tabIndex={-1} autoComplete="off" aria-hidden="true" style={{display: 'none'}} />
 <div className={"form-row"}><div className={"form-col"}>
 <label>
 <span>{"Name"}</span>
@@ -106,6 +109,7 @@ export default function Contact() {
 </div>
 </div>
 </form>
+<p className="contact-direct-email">Or email me at <a href="mailto:dan597623@gmail.com">dan597623@gmail.com</a></p>
 </div>
 
 

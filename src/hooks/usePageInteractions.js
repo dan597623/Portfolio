@@ -103,7 +103,7 @@ export default function usePageInteractions() {
       filterServices();
     }));
     all('.services-filter__clear-all').forEach(button => activate(button, () => { selections.clear(); all('.services-filter__tag').forEach(t => t.classList.remove('active')); filterServices(); }));
-    all('form').forEach(form => listen(form, 'submit', event => {
+    all('form:not([data-contact-delivery])').forEach(form => listen(form, 'submit', event => {
       event.preventDefault();
       if (form.getAttribute('role') === 'search') {
         const query = form.querySelector('input').value.trim().toLowerCase();
