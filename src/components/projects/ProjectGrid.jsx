@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import LevelsProjectCard from '../LevelsProjectCard';
 export default function ProjectGrid() {
  return (
@@ -14,7 +15,7 @@ export default function ProjectGrid() {
 
 <div className={"posts-filter__count hidden"}></div>
 <div className={"posts-filter__posts"}><div className={"posts-grid"}><article className={"case-study case-study--card"}>
-<a className={"case-study__link"} href={"/projects/spicerhaart"}></a>
+<Link className={"case-study__link"} href={"/projects/spicerhaart"}></Link>
 <div className={"case-study__thumb"}>
 <img decoding={"async"} src={"/assets/Ajuma-480x439.png"} alt={"spicerhaart"} className={"case-study__img"} loading={"lazy"} title={"Home 70"} />
 <svg className={"case-study__thumb-svg"} width={"480"} height={"305"} viewBox={"0 0 480 305"} fill={"none"}>
@@ -59,16 +60,16 @@ export default function ProjectGrid() {
 <a  className={"case-study__tag"} data-inactive-agency-link="true" aria-disabled="true" tabIndex={-1}>{"UI/UX Design"}</a>
 </div>
 <p className={"case-study__excerpt"}>{"Spicerhaart Group Ltd is one of the UK's largest independent estate agency networks, operating 7 well‑known brands across residential sales, lettings, and financial services. \nI helped deliver a mobile video solution that simplifies property marketing: agents can capture, enhance, and publish fully branded property tours in minutes, with seamless CRM integration and automated brand consistency."}</p>
-<a href={"/projects/spicerhaart"} className={"btn btn-medium btn-blue btn-blue--transparent"} title={"Case details"}>{"Case details"}<svg className={"icon"}>
+<Link href={"/projects/spicerhaart"} className={"btn btn-medium btn-blue btn-blue--transparent"} title={"Case details"}>{"Case details"}<svg className={"icon"}>
 <use href={"/assets/sprite.svg#icon-diagonal-arrow"}></use>
 
 </svg>
-</a>
+</Link>
 </div>
 </div>
 </article>
 <article className={"case-study case-study--card"}>
-<a className={"case-study__link"} href={"/projects/xunlocked"}></a>
+<Link className={"case-study__link"} href={"/projects/xunlocked"}></Link>
 <div className={"case-study__thumb"}>
 <img decoding={"async"} src={"/assets/Finance-Unlocked-1-480x439.png"} alt={"xunlocked"} className={"case-study__img"} loading={"lazy"} title={"Home 72"} />
 <svg className={"case-study__thumb-svg"} width={"480"} height={"305"} viewBox={"0 0 480 305"} fill={"none"}>
@@ -113,16 +114,16 @@ export default function ProjectGrid() {
 <a  className={"case-study__tag"} data-inactive-agency-link="true" aria-disabled="true" tabIndex={-1}>{"Web development"}</a>
 </div>
 <p className={"case-study__excerpt"}>{"xUnlocked is a multi-domain, enterprise-grade learning ecosystem that delivers structured education across Finance, Sustainability, and Data Analysis. The platform enables global organizations to upskill teams at scale through expert-led video courses, interactive pathways, and company-specific learning environments — all built on a single, scalable architecture."}</p>
-<a href={"/projects/xunlocked"} className={"btn btn-medium btn-blue btn-blue--transparent"} title={"Case details"}>{"Case details"}<svg className={"icon"}>
+<Link href={"/projects/xunlocked"} className={"btn btn-medium btn-blue btn-blue--transparent"} title={"Case details"}>{"Case details"}<svg className={"icon"}>
 <use href={"/assets/sprite.svg#icon-diagonal-arrow"}></use>
 
 </svg>
-</a>
+</Link>
 </div>
 </div>
 </article>
 <article className={"case-study case-study--card"}>
-<a className={"case-study__link"} href={"/projects/permio"}></a>
+<Link className={"case-study__link"} href={"/projects/permio"}></Link>
 <div className={"case-study__thumb"}>
 <img decoding={"async"} src={"/assets/My-Tutor-480x439.png"} alt={"permio"} className={"case-study__img"} loading={"lazy"} title={"Home 74"} />
 <svg className={"case-study__thumb-svg"} width={"480"} height={"305"} viewBox={"0 0 480 305"} fill={"none"}>
@@ -169,16 +170,16 @@ export default function ProjectGrid() {
 <a  className={"case-study__tag"} data-inactive-agency-link="true" aria-disabled="true" tabIndex={-1}>{"Web development"}</a>
 </div>
 <p className={"case-study__excerpt"}>{"Permio is an AI-powered permitting platform built for Service First Permits to automate workflows and accelerate approvals across 240+ jurisdictions. I worked closely with SFP to design, engineer, and validate a system that modernizes the entire permitting lifecycle."}</p>
-<a href={"/projects/permio"} className={"btn btn-medium btn-blue btn-blue--transparent"} title={"Case details"}>{"Case details"}<svg className={"icon"}>
+<Link href={"/projects/permio"} className={"btn btn-medium btn-blue btn-blue--transparent"} title={"Case details"}>{"Case details"}<svg className={"icon"}>
 <use href={"/assets/sprite.svg#icon-diagonal-arrow"}></use>
 
 </svg>
-</a>
+</Link>
 </div>
 </div>
 </article>
 <article className={"case-study case-study--card"}>
-<a className={"case-study__link"} href={"/projects/forethought"}></a>
+<Link className={"case-study__link"} href={"/projects/forethought"}></Link>
 <div className={"case-study__thumb"}>
 <img decoding={"async"} src={"/assets/Forethought-480x439.png"} alt={"Forethought"} className={"case-study__img"} loading={"lazy"} title={"Home 76"} />
 <svg className={"case-study__thumb-svg"} width={"480"} height={"305"} viewBox={"0 0 480 305"} fill={"none"}>
@@ -225,16 +226,16 @@ export default function ProjectGrid() {
 <a  className={"case-study__tag"} data-inactive-agency-link="true" aria-disabled="true" tabIndex={-1}>{"Web development"}</a>
 </div>
 <p className={"case-study__excerpt"}>{"Forethought partnered with me to extend and integrate its AI-powered support platforms (Assist and Discover) into complex enterprise environments. I helped enhance real-time agent assistance, streamline multi-system connectivity, and deliver a unified support experience across channels. The result is a scalable AI agent ecosystem that accelerates resolution times, boosts team productivity, and powers more consistent customer experiences."}</p>
-<a href={"/projects/forethought"} className={"btn btn-medium btn-blue btn-blue--transparent"} title={"Case details"}>{"Case details"}<svg className={"icon"}>
+<Link href={"/projects/forethought"} className={"btn btn-medium btn-blue btn-blue--transparent"} title={"Case details"}>{"Case details"}<svg className={"icon"}>
 <use href={"/assets/sprite.svg#icon-diagonal-arrow"}></use>
 
 </svg>
-</a>
+</Link>
 </div>
 </div>
 </article>
 <article className={"case-study case-study--card"}>
-<a className={"case-study__link"} href={"/projects/keep"}></a>
+<Link className={"case-study__link"} href={"/projects/keep"}></Link>
 <div className={"case-study__thumb"}>
 <img decoding={"async"} src={"/assets/Keep-480x439.png"} alt={"keep"} className={"case-study__img"} loading={"lazy"} title={"Home 78"} />
 <svg className={"case-study__thumb-svg"} width={"480"} height={"305"} viewBox={"0 0 480 305"} fill={"none"}>
@@ -277,11 +278,11 @@ export default function ProjectGrid() {
 <a  className={"case-study__tag"} data-inactive-agency-link="true" aria-disabled="true" tabIndex={-1}>{"Web development"}</a>
 </div>
 <p className={"case-study__excerpt"}>{"Keep is a next-generation retention platform built to modernize compensation strategies. Instead of relying on equity during volatile market cycles, companies use Keep to offer vesting-based cash bonuses structured as employer-funded loans. Employees receive their full bonus upfront, while the vesting schedule governs forgiveness over time, creating transparency, commitment, and a predictable retention mechanism. I helped transform this concept into a secure, compliant FinTech application that streamlines bonus management for employers and delivers a simple, intuitive experience for employees."}</p>
-<a href={"/projects/keep"} className={"btn btn-medium btn-blue btn-blue--transparent"} title={"Case details"}>{"Case details"}<svg className={"icon"}>
+<Link href={"/projects/keep"} className={"btn btn-medium btn-blue btn-blue--transparent"} title={"Case details"}>{"Case details"}<svg className={"icon"}>
 <use href={"/assets/sprite.svg#icon-diagonal-arrow"}></use>
 
 </svg>
-</a>
+</Link>
 </div>
 </div>
 </article>

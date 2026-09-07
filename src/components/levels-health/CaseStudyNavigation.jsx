@@ -1,3 +1,4 @@
+"use client";
 import { useEffect, useState } from 'react';
 
 const sections = [["about-the-client", "About the client"], ["business-context", "Business context"], ["challenges", "Challenges"], ["solutions-we-implemented", "Solutions I implemented"], ["results", "Results"]];

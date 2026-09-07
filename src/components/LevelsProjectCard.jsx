@@ -1,5 +1,6 @@
+import Link from 'next/link';
 export default function LevelsProjectCard() { return (<article className={"case-study case-study--card"}>
-<a className={"case-study__link"} href={"/projects/levels-health"}></a>
+<Link className={"case-study__link"} href={"/projects/levels-health"}></Link>
 <div className={"case-study__thumb"}>
 <img decoding={"async"} src={"/assets/levels-health/levels-health-768x702.png"} alt={"Levels Health"} className={"case-study__img"} loading={"lazy"} title={"Portfolio 13"} />
 <svg className={"case-study__thumb-svg"} width={"480"} height={"305"} viewBox={"0 0 480 305"} fill={"none"}>
@@ -31,11 +32,11 @@ export default function LevelsProjectCard() { return (<article className={"case-
 <h3 className={"case-study__title"}>{"Levels Health: a mobile app for tracking metabolic health"}</h3>
 <div className={"case-study__content_body"}><div className={"tags case-study__tags"}><span className="case-study__tag">Mobile development</span><span className="case-study__tag">Project management</span><span className="case-study__tag">UI/UX Design</span></div>
 <p className="case-study__excerpt">{"The global rise in chronic diseases like diabetes has fueled the demand for personalized health management tools. Levels Health, an A16z-backed startup, identified a gap in the market for a user-centric app that leverages CGM data to empower individuals to optimize their metabolic health. Levels partnered with me to create a mobile app that would be their core user engagement platform."}</p>
-<a href={"/projects/levels-health"} className={"btn btn-medium btn-blue btn-blue--transparent"} title={"Case details"}>{"Case details"}<svg className={"icon"}>
+<Link href={"/projects/levels-health"} className={"btn btn-medium btn-blue btn-blue--transparent"} title={"Case details"}>{"Case details"}<svg className={"icon"}>
 <use href={"/assets/sprite.svg#icon-diagonal-arrow"}></use>
 
 </svg>
-</a>
+</Link>
 </div>
 </div>
 </article>); }

@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import CaseStudyNavigation from './CaseStudyNavigation';
 export default function CaseContent() {
  return (
@@ -126,7 +127,7 @@ export default function CaseContent() {
 <div className={"banner-content__main"}><h3 className={"banner-content__title size-medium"}>{"LOOKING FOR A RELIABLE TECH PARTNER FOR YOUR NEXT PROJECT?"}</h3>
 <div className={"banner-content__text"}><p>{"Get expert support across full-cycle product development from idea validation to scalable delive"}</p>
 </div>
-<a className="btn btn-blue btn-large" href="/contact">Let's Talk <span aria-hidden="true">&#8599;</span></a>
+<Link className="btn btn-blue btn-large" href="/contact">Let's Talk <span aria-hidden="true">&#8599;</span></Link>
 
 
 </div>

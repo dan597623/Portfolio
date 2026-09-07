@@ -1,3 +1,6 @@
+"use client";
+import Link from 'next/link';
+import { useRouter, usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 const links = [
   ['About me', '#about-me'],
@@ -7,9 +10,11 @@ const links = [
   ['Industries', '.industry-carousel'],
 ];
 export default function HomeHeader() {
+  const router = useRouter();
+  const pathname = usePathname();
   const [open, setOpen] = useState(false);
   useEffect(() => {
-    const target = document.body.classList.contains('home') ? sessionStorage.getItem('portfolio-scroll-target') : null;
+    const target = pathname === '/' ? sessionStorage.getItem('portfolio-scroll-target') : null;
     if (target) {
       sessionStorage.removeItem('portfolio-scroll-target');
       requestAnimationFrame(() => go(target));
@@ -17,13 +22,13 @@ export default function HomeHeader() {
     const close = event => { if (event.key === 'Escape') setOpen(false); };
     window.addEventListener('keydown', close);
     return () => window.removeEventListener('keydown', close);
-  }, []);
+  }, [pathname]);
   const go = selector => {
     setOpen(false);
-    if (selector === '/projects') { window.location.assign('/projects'); return; }
-    if (!document.body.classList.contains('home')) {
+    if (selector === '/projects') { router.push('/projects'); return; }
+    if (pathname !== '/') {
       sessionStorage.setItem('portfolio-scroll-target', selector);
-      window.location.assign('/');
+      router.push('/');
       return;
     }
     const target = document.querySelector(selector);
@@ -38,7 +43,7 @@ export default function HomeHeader() {
         {links.map(([label, selector]) => <button type="button" key={label} onClick={() => go(selector)}>{label}</button>)}
       </nav>
       <div className="personal-header__actions">
-        <a className="btn btn-black" href="/contact">Let's Talk</a>
+        <Link className="btn btn-black" href="/contact">Let's Talk</Link>
         <button type="button" className="theme-toggle-btn" aria-label="Switch color theme"><svg className="icon"><use href="/assets/sprite.svg#icon-moon" /></svg><svg className="icon"><use href="/assets/sprite.svg#icon-sun" /></svg></button>
         <button type="button" className="personal-header__toggle" aria-expanded={open} aria-controls="personal-navigation" aria-label={open ? 'Close navigation' : 'Open navigation'} onClick={() => setOpen(!open)}><span /><span /><span /></button>
       </div>

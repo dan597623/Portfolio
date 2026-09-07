@@ -249,7 +249,7 @@ html[data-theme="light"] .personal-facts__focus { color: #6354dd; }
 .project-testimonials__card.is-next { transform: translateX(19%) scale(.85); opacity: .4; filter: blur(4px); z-index: 1; pointer-events: none; }
 .project-testimonials__card.is-hidden { transform: scale(.8); opacity: 0; z-index: 0; pointer-events: none; }
 .project-testimonials__card > img { width: 100%; height: 100%; object-fit: cover; min-height: 380px; }
-.project-testimonials__copy { padding: 32px; color: var(--color-content-primary); }
+.project-testimonials__copy { padding: 32px; color: var(--color-content-primary); display: flex; flex-direction: column; justify-content: center; }
 .project-testimonials__quote-mark { display: block; color: #9184ff; font-size: 52px; line-height: .8; margin-bottom: 16px; }
 .project-testimonials__copy blockquote { font: inherit; font-size: 16px; line-height: 1.6; margin: 0 0 24px; white-space: pre-line; }
 .project-testimonials__copy p { margin: 0; font-size: 16px; line-height: 1.5; }
@@ -354,3 +354,9 @@ a[data-inactive-agency-link] { cursor: default; pointer-events: none; }
 .project-solutions > ol > li > strong em { font-style: normal; }
 .project-solutions > ol > li > strong + br { display: none; }
 @media(max-width: 767px) { .project-solutions > h2 { font-size: var(--size-headline-h5); line-height: var(--line-headline-h5); } }
+
+/* Remove malformed decorative quotation glyphs. */
+.card-quote::before, .card-quote::after, .project-testimonials__quote-mark { display: none !important; content: none !important; }
+
+/* Vertically center project-page testimonial quotes and attribution together. */
+.card-block--quote > .card-content { display: flex; flex-direction: column; justify-content: center; }

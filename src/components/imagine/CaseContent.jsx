@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import CaseStudyNavigation from './CaseStudyNavigation';
 export default function CaseContent() {
  return (
@@ -62,7 +63,7 @@ export default function CaseContent() {
 <hr className={"wp-block-separator has-alpha-channel-opacity"} />
 <div style={{"--pd": "24px", "--pm": "24px", "--phd": "24px", "--phm": "24px"}} className={"card-block img-left icn-top card-block--quote wp-block-geniusee-card"}><figure className={"wp-block-image size-full"}><img decoding={"async"} width={"624"} height={"405"} src={"/assets/imagine-ai/image-2.png"} alt={"image 2"} className={"wp-image-9984"} title={"How I helped Forsyth Barnes speed up hiring by up to 90% with Imagine AI 2"} />
 </figure>
-<div className={"wp-block-group card-content is-layout-flow wp-block-group-is-layout-flow"}><blockquote className={"wp-block-quote card-quote is-layout-flow wp-block-quote-is-layout-flow"}><p className={"wp-block-paragraph"}>{"Dan's support went beyond just writing code. He essentially became an extension of our team. When we hit technical snags – whether it was integrating with a third-party service or fine-tuning an AI model – he worked side by side with us to resolve them. And he kept focus on our business goals throughout. It wasn’t technology for technology’s sake. Every sprint was aligned to what would make recruiters more effective."}</p>
+<div className={"wp-block-group card-content is-layout-flow wp-block-group-is-layout-flow"}><blockquote className={"wp-block-quote card-quote is-layout-flow wp-block-quote-is-layout-flow"}><p className={"wp-block-paragraph"}>{"Dan's support went beyond just writing code. He essentially became an extension of our team. When we hit technical snags, whether it was integrating with a third-party service or fine-tuning an AI model, he worked side by side with us to resolve them. He kept our business goals in focus throughout. It wasn't technology for technology's sake. Every sprint was aligned to what would make recruiters more effective."}</p>
 </blockquote>
 <p className={"wp-block-paragraph"}><strong>{"Nathan Veal, "}</strong>
 <br />
@@ -195,7 +196,7 @@ export default function CaseContent() {
 <div className={"banner-content__main"}><h3 className={"banner-content__title size-medium"}>{"Build your next product with confidence"}</h3>
 <div className={"banner-content__text"}><p>{"Work with me to build secure, scalable software through clear communication and dependable delivery."}</p>
 </div>
-<a className="btn btn-blue btn-large" href="/contact">Let's Talk <span aria-hidden="true">&#8599;</span></a>
+<Link className="btn btn-blue btn-large" href="/contact">Let's Talk <span aria-hidden="true">&#8599;</span></Link>
 
 
 </div>

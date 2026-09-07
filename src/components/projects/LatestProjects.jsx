@@ -1,3 +1,4 @@
+import Link from 'next/link';
 export default function LatestProjects() {
  return (
 <section id={""} className={"case-studies-block template-fullwidth"} style={{}}><div className={"container"}><div className={"block-header"}><div className={"heading-with-button"}><div className={"heading-with-button__inner"}><h2 id={"the-latest-success-stories"} className={"block-title"}>{" The latest success stories"}</h2>
@@ -7,7 +8,7 @@ export default function LatestProjects() {
 
 </div>
 <div className={"case-studies__content case-studies-fullwidth"}><article className={"case-study case-study--full"}><div className={"case-study__thumb"}>
-<a href={"/projects/my-tutor"} aria-label={"MyTutor: Online tutoring platform"} className={"case-study__thumb-link"}></a>
+<Link href={"/projects/my-tutor"} aria-label={"MyTutor: Online tutoring platform"} className={"case-study__thumb-link"}></Link>
 
 <img decoding={"async"} src={"/assets/projects/My-Tutor-768x702.png"} alt={"Mytutor"} className={"case-study__img"} loading={"lazy"} title={"Portfolio 7"} />
 <div className={"flex"}>
@@ -62,16 +63,16 @@ export default function LatestProjects() {
 </li>
 </ul>
 
-<a href={"/projects/my-tutor"} className={"btn btn-medium btn-blue btn-blue--transparent"} title={"MyTutor: Online tutoring platform"}>{"Case details"}<svg className={"icon"}>
+<Link href={"/projects/my-tutor"} className={"btn btn-medium btn-blue btn-blue--transparent"} title={"MyTutor: Online tutoring platform"}>{"Case details"}<svg className={"icon"}>
 <use href={"/assets/sprite.svg#icon-diagonal-arrow"}></use>
 
 </svg>
-</a>
+</Link>
 </div>
 </div>
 </article>
 <article className={"case-study case-study--full"}><div className={"case-study__thumb"}>
-<a href={"/projects/imagine-ai"} aria-label={"How I helped Forsyth Barnes speed up hiring by up to 90% with Imagine AI"} className={"case-study__thumb-link"}></a>
+<Link href={"/projects/imagine-ai"} aria-label={"How I helped Forsyth Barnes speed up hiring by up to 90% with Imagine AI"} className={"case-study__thumb-link"}></Link>
 
 <img decoding={"async"} src={"/assets/projects/My-Tutor-2-768x702.png"} alt={"imagineai"} className={"case-study__img"} loading={"lazy"} title={"Portfolio 9"} />
 <div className={"flex"}>
@@ -124,16 +125,16 @@ export default function LatestProjects() {
 </li>
 </ul>
 
-<a href={"/projects/imagine-ai"} className={"btn btn-medium btn-blue btn-blue--transparent"} title={"How I helped Forsyth Barnes speed up hiring by up to 90% with Imagine AI"}>{"Case details"}<svg className={"icon"}>
+<Link href={"/projects/imagine-ai"} className={"btn btn-medium btn-blue btn-blue--transparent"} title={"How I helped Forsyth Barnes speed up hiring by up to 90% with Imagine AI"}>{"Case details"}<svg className={"icon"}>
 <use href={"/assets/sprite.svg#icon-diagonal-arrow"}></use>
 
 </svg>
-</a>
+</Link>
 </div>
 </div>
 </article>
 <article className={"case-study case-study--full"}><div className={"case-study__thumb"}>
-<a href={"/projects/alvarez-and-marsal"} aria-label={"How I helped streamline enterprise logistics for A&M with TigerGraph"} className={"case-study__thumb-link"}></a>
+<Link href={"/projects/alvarez-and-marsal"} aria-label={"How I helped streamline enterprise logistics for A&M with TigerGraph"} className={"case-study__thumb-link"}></Link>
 
 <img decoding={"async"} src={"/assets/projects/My-Tutor-768x702(1).png"} alt={"alvarez_and_marsal"} className={"case-study__img"} loading={"lazy"} title={"Portfolio 11"} />
 <div className={"flex"}>
@@ -186,11 +187,11 @@ export default function LatestProjects() {
 </li>
 </ul>
 
-<a href={"/projects/alvarez-and-marsal"} className={"btn btn-medium btn-blue btn-blue--transparent"} title={"How I helped streamline enterprise logistics for A&M with TigerGraph"}>{"Case details"}<svg className={"icon"}>
+<Link href={"/projects/alvarez-and-marsal"} className={"btn btn-medium btn-blue btn-blue--transparent"} title={"How I helped streamline enterprise logistics for A&M with TigerGraph"}>{"Case details"}<svg className={"icon"}>
 <use href={"/assets/sprite.svg#icon-diagonal-arrow"}></use>
 
 </svg>
-</a>
+</Link>
 </div>
 </div>
 </article>

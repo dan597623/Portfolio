@@ -1,3 +1,4 @@
+"use client";
 import { useState } from 'react';
 import testimonials from './project-testimonials.json';
 export default function ProjectTestimonials() {

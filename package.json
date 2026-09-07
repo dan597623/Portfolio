@@ -1,25 +1,20 @@
 {
-  "name": "geniusee-react-portfolio",
+  "name": "dan-personal-portfolio",
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "homepage": "https://franthony03987.github.io",
-
-"scripts": {
-  "dev": "vite",
-  "build": "vite",
-  "predeploy": "npm run build",
-  "deploy": "gh-pages -d dist"
-},
- 
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build --webpack",
+    "start": "next start"
+  },
   "dependencies": {
+    "next": "^16.3.4",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
-    "swiper": "^11.2.0"
+    "swiper": "^14.2.0"
   },
   "devDependencies": {
-    "@playwright/test": "^1.51.0",
-    "gh-pages": "^6.3.0",
-    "vite": "^6.3.0"
+    "@playwright/test": "^1.51.0"
   }
 }

@@ -1,5 +1,6 @@
+import Link from 'next/link';
 const projects = [
-{ slug: 'my-tutor', card: (<article className="case-study case-study--card"><a className="case-study__link" href="/projects/my-tutor" aria-label="View my-tutor project"></a><div className={"case-study__thumb"}>
+{ slug: 'my-tutor', card: (<article className="case-study case-study--card"><Link className="case-study__link" href="/projects/my-tutor" aria-label="View my-tutor project"></Link><div className={"case-study__thumb"}>
 <span className="case-study__thumb-link"></span>
 
 <img decoding={"async"} src={"/assets/My-Tutor-768x702.png"} alt={"Mytutor"} className={"case-study__img"} loading={"lazy"} title={"Home 64"} />
@@ -40,7 +41,7 @@ const projects = [
 
 <span className="case-study__tag">{"Web development"}</span>
 </div><p className="case-study__excerpt">I collaborated with MyTutor to improve online learning, scheduling, and school workflows, helping the platform support students and tutors across the UK and US.</p></div></div></article>) },
-{ slug: 'alvarez-and-marsal', card: (<article className="case-study case-study--card"><a className="case-study__link" href="/projects/alvarez-and-marsal" aria-label="View alvarez-and-marsal project"></a><div className={"case-study__thumb"}>
+{ slug: 'alvarez-and-marsal', card: (<article className="case-study case-study--card"><Link className="case-study__link" href="/projects/alvarez-and-marsal" aria-label="View alvarez-and-marsal project"></Link><div className={"case-study__thumb"}>
 <span className="case-study__thumb-link"></span>
 
 <img decoding={"async"} src={"/assets/My-Tutor-768x702(1).png"} alt={"alvarez_and_marsal"} className={"case-study__img"} loading={"lazy"} title={"Home 66"} />
@@ -79,7 +80,7 @@ const projects = [
 
 <span className="case-study__tag">{"Web development"}</span>
 </div><p className="case-study__excerpt">I worked with Alvarez & Marsal on data pipelines, dispatcher dashboards, and route planning tools to simplify logistics coordination and improve operational visibility.</p></div></div></article>) },
-{ slug: 'imagine-ai', card: (<article className="case-study case-study--card"><a className="case-study__link" href="/projects/imagine-ai" aria-label="View imagine-ai project"></a><div className={"case-study__thumb"}>
+{ slug: 'imagine-ai', card: (<article className="case-study case-study--card"><Link className="case-study__link" href="/projects/imagine-ai" aria-label="View imagine-ai project"></Link><div className={"case-study__thumb"}>
 <span className="case-study__thumb-link"></span>
 
 <img decoding={"async"} src={"/assets/My-Tutor-2-768x702.png"} alt={"imagineai"} className={"case-study__img"} loading={"lazy"} title={"Home 68"} />
@@ -118,7 +119,7 @@ const projects = [
 
 <span className="case-study__tag">{"Web development"}</span>
 </div><p className="case-study__excerpt">I collaborated with Forsyth Barnes to bring candidate matching, CV tailoring, and recruitment workflows into one AI-powered platform.</p></div></div></article>) },
-{ slug: 'spicerhaart', card: (<article className="case-study case-study--card"><a className="case-study__link" href="/projects/spicerhaart" aria-label="View spicerhaart project"></a>
+{ slug: 'spicerhaart', card: (<article className="case-study case-study--card"><Link className="case-study__link" href="/projects/spicerhaart" aria-label="View spicerhaart project"></Link>
 
 <div className={"case-study__thumb"}>
 <img decoding={"async"} src={"/assets/Ajuma-480x439.png"} alt={"spicerhaart"} className={"case-study__img"} loading={"lazy"} title={"Home 70"} />
@@ -168,7 +169,7 @@ const projects = [
 </div>
 </div>
 </article>) },
-{ slug: 'xunlocked', card: (<article className="case-study case-study--card"><a className="case-study__link" href="/projects/xunlocked" aria-label="View xunlocked project"></a>
+{ slug: 'xunlocked', card: (<article className="case-study case-study--card"><Link className="case-study__link" href="/projects/xunlocked" aria-label="View xunlocked project"></Link>
 
 <div className={"case-study__thumb"}>
 <img decoding={"async"} src={"/assets/Finance-Unlocked-1-480x439.png"} alt={"xunlocked"} className={"case-study__img"} loading={"lazy"} title={"Home 72"} />
@@ -218,7 +219,7 @@ const projects = [
 </div>
 </div>
 </article>) },
-{ slug: 'permio', card: (<article className="case-study case-study--card"><a className="case-study__link" href="/projects/permio" aria-label="View permio project"></a>
+{ slug: 'permio', card: (<article className="case-study case-study--card"><Link className="case-study__link" href="/projects/permio" aria-label="View permio project"></Link>
 
 <div className={"case-study__thumb"}>
 <img decoding={"async"} src={"/assets/My-Tutor-480x439.png"} alt={"permio"} className={"case-study__img"} loading={"lazy"} title={"Home 74"} />
@@ -270,7 +271,7 @@ const projects = [
 </div>
 </div>
 </article>) },
-{ slug: 'forethought', card: (<article className="case-study case-study--card"><a className="case-study__link" href="/projects/forethought" aria-label="View forethought project"></a>
+{ slug: 'forethought', card: (<article className="case-study case-study--card"><Link className="case-study__link" href="/projects/forethought" aria-label="View forethought project"></Link>
 
 <div className={"case-study__thumb"}>
 <img decoding={"async"} src={"/assets/Forethought-480x439.png"} alt={"Forethought"} className={"case-study__img"} loading={"lazy"} title={"Home 76"} />
@@ -322,7 +323,7 @@ const projects = [
 </div>
 </div>
 </article>) },
-{ slug: 'keep', card: (<article className="case-study case-study--card"><a className="case-study__link" href="/projects/keep" aria-label="View keep project"></a>
+{ slug: 'keep', card: (<article className="case-study case-study--card"><Link className="case-study__link" href="/projects/keep" aria-label="View keep project"></Link>
 
 <div className={"case-study__thumb"}>
 <img decoding={"async"} src={"/assets/Keep-480x439.png"} alt={"keep"} className={"case-study__img"} loading={"lazy"} title={"Home 78"} />
@@ -370,7 +371,7 @@ const projects = [
 </div>
 </div>
 </article>) },
-{ slug: 'levels-health', card: (<article className="case-study case-study--card"><a className="case-study__link" href="/projects/levels-health" aria-label="View levels-health project"></a>
+{ slug: 'levels-health', card: (<article className="case-study case-study--card"><Link className="case-study__link" href="/projects/levels-health" aria-label="View levels-health project"></Link>
 
 <div className={"case-study__thumb"}>
 <img decoding={"async"} src={"/assets/levels-health/levels-health-768x702.png"} alt={"Levels Health"} className={"case-study__img"} loading={"lazy"} title={"Portfolio 13"} />
