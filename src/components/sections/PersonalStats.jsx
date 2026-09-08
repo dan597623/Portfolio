@@ -1,7 +1,7 @@
 const stats = [
   ['15+', 'Years in Software Engineering'],
   ['Apple + Amazon', 'Enterprise Engineering Experience'],
-  ['20+', 'Production Projects Delivered'],
+  ['10+', 'Enterprise Solutions Delivered'],
   ['40%', 'Operational Impact Reduction'],
 ];
 export default function PersonalStats() {

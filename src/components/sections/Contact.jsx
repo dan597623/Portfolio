@@ -14,7 +14,7 @@ export default function Contact() {
     try {
       const payload = Object.fromEntries(new FormData(form));
       payload._url = window.location.href;
-      const response = await fetch('https://formsubmit.co/ajax/dan597623@gmail.com', {
+      const response = await fetch('https://formsubmit.co/ajax/contact@danielrocca.com', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
         body: JSON.stringify(payload),
@@ -41,7 +41,7 @@ export default function Contact() {
   return (
 <section id={"contact"} className={"contact-form-block"} style={{"--md": "128px", "--mm": "80px"}}><div className={"container"}><div className={"flex"}><div id={""} className={"form-block"} style={{}}><div className={"form-block__head"}><h2 className={"form-block__title"}>{"Let's talk!"}</h2>
 </div>
-<form action="https://formsubmit.co/dan597623@gmail.com" method="POST" onSubmit={submitInquiry} aria-busy={sending} data-contact-delivery="true" className="form form--inverted">
+<form action="https://formsubmit.co/contact@danielrocca.com" method="POST" onSubmit={submitInquiry} aria-busy={sending} data-contact-delivery="true" className="form form--inverted">
 <input type="hidden" name="_subject" value="New portfolio inquiry for Daniel" />
 <input type="hidden" name="_template" value="table" />
 <input type="text" name="_honey" tabIndex={-1} autoComplete="off" aria-hidden="true" style={{display: 'none'}} />

@@ -56,7 +56,7 @@ export default function usePageInteractions() {
     const updateTabLogo = () => {
       const theme = document.documentElement.dataset.theme === 'light' ? 'light' : 'dark';
       document.querySelectorAll('link[rel="icon"]').forEach(icon => {
-        icon.href = '/assets/brand/favicon-dark.svg';
+        icon.href = '/assets/brand/favicon.svg?v=6';
         icon.type = 'image/svg+xml';
       });
     };
