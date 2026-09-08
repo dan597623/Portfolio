@@ -56,8 +56,8 @@ export default function CaseContent() {
 </div>
 </div>
 <div className={"grid-item"}><div className={"case-info__meta card-block"}>
-<span className={"case-info__meta-label"}>{"$5 "}</span>
-<span className={"case-info__meta-value"}>{"billion annual revenue"}</span>
+<span className={"case-info__meta-label"}>{"$5B "}</span>
+<span className={"case-info__meta-value"}>{"annual revenue"}</span>
 </div>
 </div>
 </div>

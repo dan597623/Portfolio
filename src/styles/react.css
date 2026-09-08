@@ -396,3 +396,42 @@ a[data-inactive-agency-link] { cursor: default; pointer-events: none; }
 @media(max-width: 767px) { .personal-experience__summary { padding-right: 8px; gap: 12px; } }
 
 .personal-experience__item p strong, .personal-experience__details li strong { font-weight: 700; color: inherit; }
+
+.brand-logo { display: block; width: 190px; line-height: 0; }
+.brand-logo svg { display: block; width: 100%; height: 64px; }
+.brand-logo .brand-logo__light { display: none; }
+html[data-theme="light"] .brand-logo .brand-logo__light { display: block; }
+html[data-theme="light"] .brand-logo .brand-logo__dark { display: none; }
+.personal-footer__brand { display: inline-block; }
+.personal-footer__brand .brand-logo { width: 240px; }
+.personal-footer__brand .brand-logo svg { height: 80px; }
+@media(max-width: 600px) { .personal-header__brand .brand-logo { width: 140px; } .personal-header__brand .brand-logo svg { height: 48px; } }
+
+/* Consistent spacing between the homepage's top-level sections. */
+.home .site-main { display: flex; flex-direction: column; gap: 72px; }
+.home .site-main > section { margin-block: 0; padding-block: 0; }
+.home .site-main > .personal-hero { padding-top: 56px; }
+.home .personal-experience { margin-top: 72px; }
+.home .personal-experience__item:last-child { padding-bottom: 32px; }
+.home .contact-form-block > .container > .flex { margin-block: 0; }
+@media(max-width: 767px) {
+ .home .site-main { gap: 48px; }
+ .home .site-main > .personal-hero { padding-top: 24px; }
+ .home .personal-experience { margin-top: 48px; }
+}
+
+.post-index__list button { display: block; width: 100%; padding: 0; border: 0; background: transparent; color: inherit; font: inherit; text-align: left; cursor: pointer; }
+.post-index__list button:hover { color: #8c7cff; }
+.post-index__list button:focus-visible { outline: 2px solid #8c7cff; outline-offset: 4px; border-radius: 4px; }
+
+/* Keep project cards separated before and after carousel initialization. */
+.case-studies-carousel .swiper-slide { margin-right: 16px !important; }
+@media(min-width: 768px) { .case-studies-carousel .swiper-slide { margin-right: 24px !important; } }
+
+.personal-hero__socials[hidden] { display: none; }
+
+/* Keep the results strip below the initial hero viewport. */
+.home .site-main > .personal-hero { min-height: calc(100svh - 104px); }
+.personal-stats__item { text-align: center; }
+.personal-stats__item dd.personal-stats__text-value { font-size: clamp(24px, 2.2vw, 34px); }
+@media(max-width: 767px) { .personal-stats__item dd.personal-stats__text-value { font-size: 24px; } }

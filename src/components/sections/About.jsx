@@ -4,7 +4,7 @@ export default function About() {
 </div>
 <div className={"banner-content__overlay"}></div>
 <div className={"banner-content__main"}><h3 className={"banner-content__title size-medium"}>{"About us"}</h3>
-<div className={"banner-content__text"}><p>{"Dan was founded in 2017 and since then we provide top-notch custom software solutions to clients all over the world. With years of experience in the industry, we have helped many businesses grow and achieve their goals by delivering innovative and scalable software products. "}</p>
+<div className={"banner-content__text"}><p>{"Daniel was founded in 2017 and since then we provide top-notch custom software solutions to clients all over the world. With years of experience in the industry, we have helped many businesses grow and achieve their goals by delivering innovative and scalable software products. "}</p>
 </div>
 
 <a  className={"btn btn-blue"} title={"Learn more"} data-inactive-agency-link="true" aria-disabled="true" tabIndex={-1}>{"Learn more"}</a>

@@ -74,7 +74,7 @@ export default function CaseContent() {
 <div style={{"--pd": "24px", "--pm": "24px", "--phd": "24px", "--phm": "24px"}} className={"card-block img-left icn-top card-block--quote wp-block-geniusee-card"}><figure className={"wp-block-image size-large"}><img decoding={"async"} width={"1024"} height={"665"} src={"/assets/spicerhaart/Mask-Group-1-1-1024x665.png"} alt={"Mask Group 1 1"} className={"wp-image-5381"} title={"Spicerhaart: How I helped accelerate branded property tour videos 2"} />
 </figure>
 <div className={"wp-block-group card-content is-layout-flow wp-block-group-is-layout-flow"}><blockquote className={"wp-block-quote card-quote is-layout-flow wp-block-quote-is-layout-flow"}><div style={{"height": "96px"}} aria-hidden={"true"} className={"wp-block-spacer"}></div>
-<p className={"wp-block-paragraph"}>{"“The way Dan collaborated with us really stood out. He listened, understood our needs, and delivered exactly what we asked for in just six weeks. The app has been well received by our teams, who love how simple it is to use.”"}</p>
+<p className={"wp-block-paragraph"}>{"“The way Daniel collaborated with us really stood out. He listened, understood our needs, and delivered exactly what we asked for in just six weeks. The app has been well received by our teams, who love how simple it is to use.”"}</p>
 </blockquote>
 <p className={"wp-block-paragraph"}><strong>{"Steve Lamb"}<br />
 </strong>

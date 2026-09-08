@@ -1,6 +1,6 @@
 export default function Reviews() {
   return (
-<section id={""} className={"carousel-block carousel-arrows-top"} style={{}}><div className={"container"}><div className={"block-header"}><div className={"heading-with-button"}><div className={"heading-with-button__inner"}><h2 id={"geniusee-reviews"} className={"block-title"}>{" Dan reviews"}</h2>
+<section id={""} className={"carousel-block carousel-arrows-top"} style={{}}><div className={"container"}><div className={"block-header"}><div className={"heading-with-button"}><div className={"heading-with-button__inner"}><h2 id={"geniusee-reviews"} className={"block-title"}>{" Daniel reviews"}</h2>
 <div className={"carousel-navigation carousel-navigation--top"}>
 <button className={"swiper-button-prev nav-prev"} aria-label={"Previous slide"}>
 <svg className={"icon"}>
@@ -150,7 +150,7 @@ export default function Reviews() {
 <span className={"tag tag-small"}>{"Edtech"}</span>
 </div>
 </div>
-<div className={"review__text"}><p>{"“The quality of work delivered by Dan exceeded my expectations.”"}</p>
+<div className={"review__text"}><p>{"“The quality of work delivered by Daniel exceeded my expectations.”"}</p>
 </div>
 <div className={"review__author"}><div className={"review__author-photo"}>
 <svg className={"icon"}>
@@ -347,7 +347,7 @@ export default function Reviews() {
 <span className={"tag tag-small"}>{"AI & ML"}</span>
 </div>
 </div>
-<div className={"review__text"}><p>{"“Dan’s commitment to customer satisfaction and flexible project management are very impressive.”"}</p>
+<div className={"review__text"}><p>{"“Daniel’s commitment to customer satisfaction and flexible project management are very impressive.”"}</p>
 </div>
 <div className={"review__author"}><div className={"review__author-photo"}>
 <svg className={"icon"}>

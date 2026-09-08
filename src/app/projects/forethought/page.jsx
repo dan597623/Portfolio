@@ -1,3 +1,3 @@
 import View from '../../../views/Forethought';
 export default View;
-export const metadata = { title: "Forethought | Dan" };
+export const metadata = { title: "Forethought | Daniel" };

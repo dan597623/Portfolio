@@ -4,7 +4,7 @@ export default function FeaturedProjects() {
 <section id={""} className={"case-studies-block template-fullwidth"} style={{"--md": "128px", "--mm": "80px"}}><div className={"container"}><div className={"block-header"}><div className={"heading-with-button"}><div className={"heading-with-button__inner"}><h2 id={"our-partnership-success-stories"} className={"block-title"}>{" My project success stories"}</h2>
 
 <Link href={"/projects"} target={"_self"} className={"btn btn-blue btn-large"}>
-<span>{"More projects"}</span>
+<span>{"More Details"}</span>
 
 <svg className={"icon"} height={"24"} width={"24"} data-loaded={"true"}><use href={"/assets/arrow-narrow-up-right.svg#icon"}></use>
 </svg>

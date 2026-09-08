@@ -43,21 +43,32 @@ export default function usePageInteractions() {
     }
     const carousels = all('.swiper:not(.hero-swiper)').map(element => {
       const section = element.closest('section');
+      const isProjectCarousel = Boolean(element.closest('.case-studies-carousel'));
       return new Swiper(element, {
         modules: [Navigation, Pagination, Autoplay], slidesPerView: 'auto', spaceBetween: 16,
+        ...(isProjectCarousel ? { breakpoints: { 768: { spaceBetween: 24 } } } : {}),
         navigation: { prevEl: section?.querySelector('.swiper-button-prev'), nextEl: section?.querySelector('.swiper-button-next') },
         pagination: { el: section?.querySelector('.swiper-pagination'), clickable: true },
         watchOverflow: true,
       });
     });
     cleanups.push(() => carousels.forEach(swiper => swiper.destroy(true, true)));
+    const updateTabLogo = () => {
+      const theme = document.documentElement.dataset.theme === 'light' ? 'light' : 'dark';
+      document.querySelectorAll('link[rel="icon"]').forEach(icon => {
+        icon.href = '/assets/brand/favicon-dark.svg';
+        icon.type = 'image/svg+xml';
+      });
+    };
     all('.theme-toggle-btn').forEach(button => activate(button, () => {
       const theme = document.documentElement.dataset.theme === 'dark' ? 'light' : 'dark';
       document.documentElement.dataset.theme = theme;
+      updateTabLogo();
       button.setAttribute('aria-label', `Switch to ${theme === 'dark' ? 'light' : 'dark'} theme`);
       try { localStorage.setItem('theme', theme); } catch { /* Storage may be disabled. */ }
     }));
     try { const theme = localStorage.getItem('theme'); if (['light', 'dark'].includes(theme)) document.documentElement.dataset.theme = theme; } catch { /* Use default theme. */ }
+    updateTabLogo();
     all('.has-megamenu').forEach(item => {
       const open = () => {
         all('.has-megamenu').forEach(other => { if (other !== item) other.classList.remove('megamenu-open', 'opened'); });

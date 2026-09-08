@@ -42,7 +42,7 @@ export default function Contact() {
 <section id={"contact"} className={"contact-form-block"} style={{"--md": "128px", "--mm": "80px"}}><div className={"container"}><div className={"flex"}><div id={""} className={"form-block"} style={{}}><div className={"form-block__head"}><h2 className={"form-block__title"}>{"Let's talk!"}</h2>
 </div>
 <form action="https://formsubmit.co/dan597623@gmail.com" method="POST" onSubmit={submitInquiry} aria-busy={sending} data-contact-delivery="true" className="form form--inverted">
-<input type="hidden" name="_subject" value="New portfolio inquiry for Dan" />
+<input type="hidden" name="_subject" value="New portfolio inquiry for Daniel" />
 <input type="hidden" name="_template" value="table" />
 <input type="text" name="_honey" tabIndex={-1} autoComplete="off" aria-hidden="true" style={{display: 'none'}} />
 <div className={"form-row"}><div className={"form-col"}>
@@ -138,7 +138,7 @@ export default function Contact() {
 </svg>
 
 <input type={"checkbox"} name={"agree"} required={true} />
-<p>{"I consent to Dan using the information I provide to respond to my inquiry."}</p>
+<p>{"I consent to Daniel using the information I provide to respond to my inquiry."}</p>
 
 </label>
 </div>

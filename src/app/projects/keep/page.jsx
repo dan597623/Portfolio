@@ -1,3 +1,3 @@
 import View from '../../../views/Keep';
 export default View;
-export const metadata = { title: "Keep | Dan" };
+export const metadata = { title: "Keep | Daniel" };

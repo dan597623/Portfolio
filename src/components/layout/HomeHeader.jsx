@@ -1,11 +1,12 @@
 "use client";
 import Link from 'next/link';
+import BrandLogo from './BrandLogo';
 import { useRouter, usePathname } from 'next/navigation';
 import { useEffect, useState } from 'react';
 const links = [
   ['About me', '#about-me'],
   ['Experience', '.personal-experience'],
-  ['Projects', '/projects'],
+  ['Projects', '.case-studies-block'],
   ['Services', '.services-filter-block'],
   ['Industries', '.industry-carousel'],
 ];
@@ -14,6 +15,10 @@ export default function HomeHeader() {
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
   useEffect(() => {
+    if (pathname === '/projects' && sessionStorage.getItem('portfolio-projects-top')) {
+      sessionStorage.removeItem('portfolio-projects-top');
+      requestAnimationFrame(() => window.scrollTo({ top: 0, left: 0, behavior: 'instant' }));
+    }
     const target = pathname === '/' ? sessionStorage.getItem('portfolio-scroll-target') : null;
     if (target) {
       sessionStorage.removeItem('portfolio-scroll-target');
@@ -25,10 +30,24 @@ export default function HomeHeader() {
   }, [pathname]);
   const go = selector => {
     setOpen(false);
-    if (selector === '/projects') { router.push('/projects'); return; }
+    if (selector === '/projects') {
+      sessionStorage.removeItem('portfolio-scroll-target');
+      if (pathname === '/projects') {
+        window.scrollTo({ top: 0, left: 0, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+      } else {
+        sessionStorage.setItem('portfolio-projects-top', 'true');
+        router.push('/projects', { scroll: false });
+      }
+      return;
+    }
     if (pathname !== '/') {
       sessionStorage.setItem('portfolio-scroll-target', selector);
       router.push('/');
+      return;
+    }
+    if (selector === '__top__') {
+      sessionStorage.removeItem('portfolio-scroll-target');
+      window.scrollTo({ top: 0, left: 0, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
       return;
     }
     const target = document.querySelector(selector);
@@ -38,7 +57,7 @@ export default function HomeHeader() {
   };
   return <header className="site-header header header--pinned personal-header">
     <div className="container personal-header__inner">
-      <button type="button" className="personal-header__brand" onClick={() => go('.personal-hero')} aria-label="Dan, back to top">DAN<span>.</span></button>
+      <button type="button" className="personal-header__brand" onClick={() => go('__top__')} aria-label="Daniel, back to top"><BrandLogo /></button>
       <nav id="personal-navigation" aria-label="Main navigation" className={open ? 'personal-header__nav is-open' : 'personal-header__nav'}>
         {links.map(([label, selector]) => <button type="button" key={label} onClick={() => go(selector)}>{label}</button>)}
       </nav>

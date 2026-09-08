@@ -20,7 +20,13 @@ export default function CaseStudyNavigation() {
   }, []);
   return <nav aria-label="Case study contents"><ol className="post-index__list post-index-list">
     {sections.map(([id, label]) => <li key={id} className={active === id ? 'active' : ''}>
-      <span aria-current={active === id ? 'location' : undefined}>{label}</span>
+      <button type="button" aria-current={active === id ? 'location' : undefined} onClick={() => {
+        const target = document.getElementById(id);
+        if (!target) return;
+        const headerHeight = document.querySelector('.personal-header')?.getBoundingClientRect().height || 80;
+        window.scrollTo({ top: Math.max(0, window.scrollY + target.getBoundingClientRect().top - headerHeight - 24), behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
+        setActive(id);
+      }}>{label}</button>
     </li>)}
   </ol></nav>;
 }
