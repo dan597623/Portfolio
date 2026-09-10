@@ -2,6 +2,7 @@
 import { useRouter, usePathname } from 'next/navigation';
 import Link from 'next/link';
 import BrandLogo from './BrandLogo';
+import SocialLinks from '../SocialLinks';
 export default function Footer() {
   const router = useRouter();
   const pathname = usePathname();
@@ -29,7 +30,7 @@ export default function Footer() {
   return <footer className="personal-footer">
     <div className="container">
       <div className="personal-footer__main">
-        <div className="personal-footer__intro"><Link href="/" className="personal-footer__brand" onClick={event => { event.preventDefault(); navigate('__top__'); }} aria-label="Daniel home"><BrandLogo /></Link><p>Full-stack engineering. Practical AI.<br />Software built with care.</p><span className="personal-footer__location">Blackwood, New Jersey</span></div>
+        <div className="personal-footer__intro"><Link href="/" className="personal-footer__brand" onClick={event => { event.preventDefault(); navigate('__top__'); }} aria-label="Daniel home"><BrandLogo /></Link><p>Full-stack engineering. Practical AI.<br />Software built with care.</p><span className="personal-footer__location">Blackwood, New Jersey</span><SocialLinks className="personal-footer__socials" /></div>
         <nav className="personal-footer__nav" aria-label="Footer navigation">
           <button type="button" onClick={() => navigate('#about-me')}>About me</button>
           <button type="button" onClick={() => navigate('.personal-experience')}>Experience</button>
