@@ -45,7 +45,7 @@ export default function Footer() {
           }}>Projects</Link>
           <button type="button" onClick={() => navigate('.services-filter-block')}>Services</button>
         </nav>
-        <div className="personal-footer__contact"><p>Have a project in mind?</p><Link className="btn btn-blue" href="/contact">Let's Talk <span aria-hidden="true">&#8599;</span></Link><span>Open to collaboration</span></div>
+        <div className="personal-footer__contact"><p>Have a project in mind?</p><Link className="btn btn-blue" href="/contact">Let's Talk <span aria-hidden="true">&#8599;</span></Link><a className="personal-footer__email" href="mailto:contact@danielrocca.dev">contact@danielrocca.dev</a><span>Open to collaboration</span></div>
       </div>
       <div className="personal-footer__bottom"><span>&copy; {new Date().getFullYear()} Daniel. All rights reserved.</span><button type="button" onClick={() => window.scrollTo({ top: 0, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' })}>Back to top <span aria-hidden="true">&#8593;</span></button></div>
     </div>
