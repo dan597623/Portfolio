@@ -1,49 +1,28 @@
 "use client";
-import { useRef, useState } from 'react';
+const acknowledgment = name => `Hi ${name},
+
+Thanks for reaching out! I've received your message and would be happy to discuss your project. I'll get back to you within one business day.
+
+Best,
+Daniel Rocca`;
+
 export default function Contact() {
-  const [status, setStatus] = useState(null);
-  const [sending, setSending] = useState(false);
-  const inFlight = useRef(false);
-  async function submitInquiry(event) {
-    event.preventDefault();
+  function submitInquiry(event) {
     const form = event.currentTarget;
-    if (inFlight.current || !form.reportValidity()) return;
-    inFlight.current = true;
-    setSending(true);
-    setStatus(null);
-    try {
-      const payload = Object.fromEntries(new FormData(form));
-      payload._url = window.location.href;
-      const response = await fetch('https://formsubmit.co/ajax/contact@danielrocca.dev', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-        body: JSON.stringify(payload),
-        signal: AbortSignal.timeout(20000),
-      });
-      const result = await response.json();
-      const accepted = result.success === true || result.success === 'true';
-      const needsActivation = /activat|confirm.*email|verify.*email/i.test(result.message || '');
-      if (!response.ok || !accepted || needsActivation) {
-        setStatus({ error: true, text: needsActivation
-          ? 'Message delivery is not available yet. Please try again later.'
-          : 'Your message could not be submitted. Please try again. Your details are still here.' });
-        return;
-      }
-      setStatus({ error: false, text: 'Thank you. Your inquiry has been submitted.' });
-      form.reset();
-    } catch {
-      setStatus({ error: true, text: 'I could not confirm your submission. Please check your connection and try again. Your details are still here.' });
-    } finally {
-      inFlight.current = false;
-      setSending(false);
-    }
+    const name = form.elements.namedItem('name').value.trim().replace(/[\r\n]+/g, ' ');
+    form.elements.namedItem('_autoresponse').value = acknowledgment(name || 'there');
+    form.elements.namedItem('_next').value = new URL('/contact/thank-you', window.location.origin).href;
+    // Native submission with reCAPTCHA is required for FormSubmit autoresponses.
   }
   return (
 <section id={"contact"} className={"contact-form-block"} style={{"--md": "128px", "--mm": "80px"}}><div className={"container"}><div className={"flex"}><div id={""} className={"form-block"} style={{}}><div className={"form-block__head"}><h2 className={"form-block__title"}>{"Let's talk!"}</h2>
 </div>
-<form action="https://formsubmit.co/contact@danielrocca.dev" method="POST" onSubmit={submitInquiry} aria-busy={sending} data-contact-delivery="true" className="form form--inverted">
+<form action="https://formsubmit.co/contact@danielrocca.dev" method="POST" onSubmit={submitInquiry} data-contact-delivery="true" className="form form--inverted">
 <input type="hidden" name="_subject" value="New portfolio inquiry for Daniel" />
 <input type="hidden" name="_template" value="table" />
+<input type="hidden" name="_autoresponse" defaultValue={acknowledgment('there')} />
+<input type="hidden" name="_next" defaultValue="https://www.danielrocca.dev/contact/thank-you" />
+<input type="hidden" name="_captcha" value="true" />
 <input type="text" name="_honey" tabIndex={-1} autoComplete="off" aria-hidden="true" style={{display: 'none'}} />
 <div className={"form-row"}><div className={"form-col"}>
 <label>
@@ -142,9 +121,9 @@ export default function Contact() {
 
 </label>
 </div>
-<div className="form-messages" role="status" aria-live="polite">{status && <p className={status.error ? "contact-status is-error" : "contact-status"}>{status.text}</p>}</div>
+<p className="contact-verification-note">After sending, complete the verification step to submit your message.</p>
 <div className={"form-actions"}><div className={"form-row"}>
-<button type="submit" className="btn btn-blue" disabled={sending}>{sending ? "Sending..." : "Send"}</button>
+<button type="submit" className="btn btn-blue">Send</button>
 </div>
 </div>
 </form>
