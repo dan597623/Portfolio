@@ -454,3 +454,8 @@ html[data-theme="light"] .brand-logo .brand-logo__dark { display: none; }
 
 
 .personal-experience__item .personal-experience__skills { margin: 20px 0 0; font-size: 14px; line-height: 1.8; }
+
+.personal-hero__portrait > .personal-hero__photo--light { display: none; }
+.personal-hero__portrait > .personal-hero__photo--dark { display: block; }
+html[data-theme="light"] .personal-hero__portrait > .personal-hero__photo--light { display: block; }
+html[data-theme="light"] .personal-hero__portrait > .personal-hero__photo--dark { display: none; }

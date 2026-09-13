@@ -20,7 +20,7 @@ export default function Hero() {
         <div className="personal-hero__actions"><button type="button" className="btn btn-blue btn-large" onClick={() => scrollToSection('.case-studies-block')}>My projects <span aria-hidden="true">&#8595;</span></button><Link className="btn btn-large personal-contact" href="/contact">Let's Talk <span aria-hidden="true">&#8599;</span></Link></div>
         <SocialLinks className="personal-hero__socials" showResume />
       </div>
-      <div className="personal-hero__portrait"><Image width={1261} height={1247} sizes="(max-width: 900px) 100vw, 50vw" priority src="/assets/profile/Dan.png" alt="Daniel, senior full-stack engineer" fetchPriority="high" /><div className="personal-hero__caption">ENGINEERING WITH PURPOSE<span>From architecture to production.</span></div></div>
+      <div className="personal-hero__portrait"><Image className="personal-hero__photo--light" width={1122} height={1402} sizes="(max-width: 900px) 100vw, 50vw" priority src="/assets/profile/daniel-hero-light (2).png" alt="Daniel Rocca, full-stack AI software engineer" /><Image className="personal-hero__photo--dark" width={1122} height={1402} sizes="(max-width: 900px) 100vw, 50vw" priority src="/assets/profile/daniel-hero-dark (2).png" alt="Daniel Rocca, full-stack AI software engineer" /><div className="personal-hero__caption">ENGINEERING WITH PURPOSE<span>From architecture to production.</span></div></div>
     </div></div>
   </section>;
 }
