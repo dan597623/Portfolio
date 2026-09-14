@@ -129,7 +129,7 @@ html[data-theme="light"] .personal-hero h1 span { color: #6354dd; }
 .personal-facts dd span { display: block; font-weight: 400; color: var(--personal-muted); margin-top: 4px; }
 .personal-facts__focus { color: #aa9eff; }
 html[data-theme="light"] .personal-facts__focus { color: #6354dd; }
-.personal-facts__status i { display: inline-block; width: 8px; height: 8px; background: #69b34c; border-radius: 50%; box-shadow: 0 0 0 3px #69b34c22; margin-right: 10px; }
+.personal-facts__status i { display: inline-block; width: 8px; height: 8px; background: #69b34c; border-radius: 50%; box-shadow: 0 0 0 3px #69b34c22; margin-right: 10px; animation: availability-pulse 2s ease-out infinite; }
 @media(max-width: 767px) { .personal-about__grid { grid-template-columns: 1fr; gap: 24px; } .personal-about .personal-about__label { margin-bottom: 32px; } .personal-facts { padding: 12px 20px; } .personal-facts dl > div { grid-template-columns: 70px 1fr; gap: 12px; } }
 
 /* Keep About typography consistent with the existing sections. */
@@ -459,3 +459,10 @@ html[data-theme="light"] .brand-logo .brand-logo__dark { display: none; }
 .personal-hero__portrait > .personal-hero__photo--dark { display: block; }
 html[data-theme="light"] .personal-hero__portrait > .personal-hero__photo--light { display: block; }
 html[data-theme="light"] .personal-hero__portrait > .personal-hero__photo--dark { display: none; }
+
+@keyframes availability-pulse {
+  0% { box-shadow: 0 0 0 0 #69b34c66; }
+  70% { box-shadow: 0 0 0 8px #69b34c00; }
+  100% { box-shadow: 0 0 0 0 #69b34c00; }
+}
+@media(prefers-reduced-motion: reduce) { .personal-facts__status i { animation: none; } }

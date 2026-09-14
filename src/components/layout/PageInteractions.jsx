@@ -8,7 +8,7 @@ export default function PageInteractions({ children }) {
   document.body.className = 'page sticky ' + (path === '/' ? 'home' : path.startsWith('/projects/') ? 'single-case_study' + (path === '/projects/my-tutor' ? ' mytutor-page' : '') : '');
  }, [path]);
  useLayoutEffect(() => {
-  if (!path.startsWith('/projects/') || window.location.hash) return;
+  if ((path !== '/projects' && !path.startsWith('/projects/')) || window.location.hash) return;
   // Reset after the new route mounts, including Next's own scroll handling.
   const resetScroll = () => window.scrollTo({ top: 0, left: 0, behavior: 'instant' });
   resetScroll();
