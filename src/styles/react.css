@@ -466,3 +466,7 @@ html[data-theme="light"] .personal-hero__portrait > .personal-hero__photo--dark 
   100% { box-shadow: 0 0 0 0 #69b34c00; }
 }
 @media(prefers-reduced-motion: reduce) { .personal-facts__status i { animation: none; } }
+
+/* Give experience copy breathing room along the right edge. */
+.personal-experience__item > div:last-child { min-width: 0; padding-right: 24px; }
+@media(max-width: 767px) { .personal-experience__item > div:last-child { padding-right: 12px; } }
