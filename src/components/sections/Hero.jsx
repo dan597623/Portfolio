@@ -12,15 +12,22 @@ export default function Hero() {
       behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth',
     });
   };
-  return <section className="personal-hero" aria-labelledby="personal-title">
-    <div className="container"><div className="personal-hero__panel">
-      <div className="personal-hero__copy">
+  return <section className="personal-hero studio-hero" aria-labelledby="personal-title">
+    <div className="studio-hero__backdrop" aria-hidden="true">
+      <Image className="studio-hero__image studio-hero__image--dark" src="/assets/profile/hero-studio-dark-v4.png" alt="" fill sizes="100vw" priority />
+      <Image className="studio-hero__image studio-hero__image--light" src="/assets/profile/hero-studio-light-v4.png" alt="" fill sizes="100vw" priority />
+    </div>
+    <div className="container studio-hero__inner">
+      <div className="studio-hero__content">
+        <div className="studio-hero__badge"><span />Software builder</div>
         <h1 id="personal-title">Hi, I'm Daniel.<br /><span>I build software<br />people rely on.</span></h1>
-        <p className="personal-hero__intro">From a thoughtful interface to the systems behind it, I turn complex ideas into dependable products. Full-stack engineering, practical AI, and 15+ years of experience.</p>
-        <div className="personal-hero__actions"><button type="button" className="btn btn-blue btn-large" onClick={() => scrollToSection('.case-studies-block')}>My projects <span aria-hidden="true">&#8595;</span></button><Link className="btn btn-large personal-contact" href="/contact">Let's Talk <span aria-hidden="true">&#8599;</span></Link></div>
+        <p className="personal-hero__intro">I help ambitious teams turn complex ideas into reliable, scalable software. Focused on people, product and real-world impact.</p>
+        <div className="personal-hero__actions">
+          <Link className="btn btn-blue btn-large" href="/contact">Let's work together <span aria-hidden="true">&#8599;</span></Link>
+          <button type="button" className="btn btn-large personal-contact" onClick={() => scrollToSection('.case-studies-block')}>View my work <span aria-hidden="true">&#8595;</span></button>
+        </div>
         <SocialLinks className="personal-hero__socials" showResume />
       </div>
-      <div className="personal-hero__portrait"><Image className="personal-hero__photo--light" width={1122} height={1402} sizes="(max-width: 900px) 100vw, 50vw" priority src="/assets/profile/daniel-hero-light (2).png" alt="Daniel Rocca, full-stack AI software engineer" /><Image className="personal-hero__photo--dark" width={1122} height={1402} sizes="(max-width: 900px) 100vw, 50vw" priority src="/assets/profile/daniel-hero-dark (2).png" alt="Daniel Rocca, full-stack AI software engineer" /><div className="personal-hero__caption">ENGINEERING WITH PURPOSE<span>From architecture to production.</span></div></div>
-    </div></div>
+    </div>
   </section>;
 }

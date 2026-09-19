@@ -14,6 +14,13 @@ export default function HomeHeader() {
   const router = useRouter();
   const pathname = usePathname();
   const [open, setOpen] = useState(false);
+  const [atTop, setAtTop] = useState(true);
+  useEffect(() => {
+    const update = () => setAtTop(window.scrollY < 24);
+    update();
+    window.addEventListener('scroll', update, { passive: true });
+    return () => window.removeEventListener('scroll', update);
+  }, []);
   useEffect(() => {
     if (pathname === '/projects' && sessionStorage.getItem('portfolio-projects-top')) {
       sessionStorage.removeItem('portfolio-projects-top');
@@ -55,7 +62,7 @@ export default function HomeHeader() {
     const offset = document.querySelector('.personal-header')?.getBoundingClientRect().height || 80;
     window.scrollTo({ top: window.scrollY + target.getBoundingClientRect().top - offset - 24, behavior: matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth' });
   };
-  return <header className="site-header header header--pinned personal-header">
+  return <header className={`site-header header header--pinned personal-header${pathname === '/' && atTop && !open ? ' personal-header--over-hero' : ''}`}>
     <div className="container personal-header__inner">
       <button type="button" className="personal-header__brand" onClick={() => go('__top__')} aria-label="Daniel, back to top"><BrandLogo /></button>
       <nav id="personal-navigation" aria-label="Main navigation" className={open ? 'personal-header__nav is-open' : 'personal-header__nav'}>
